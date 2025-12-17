@@ -83,7 +83,7 @@ const config: Config = {
       title: 'NamWiki',
       logo: {
         alt: 'NamWiki Logo',
-        src: 'img/logo.png',
+        src: 'img/LogoWikiNam.png',
       },
       hideOnScroll: false,
       items: [
