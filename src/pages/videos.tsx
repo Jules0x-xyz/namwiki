@@ -91,11 +91,9 @@ export default function Videos(): React.JSX.Element {
               {videos.map((video, idx) => (
                 <a key={idx} href={video.url} className={styles.videoCard} target="_blank" rel="noopener noreferrer">
                   <div className={styles.videoThumb}>
-                    {/* Updated to show real YouTube thumbnail */}
                     <img 
                       src={getThumbnailUrl(video.url)} 
-                      alt={video.title} 
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      alt={video.title}
                     />
                     <div className={styles.playOverlay}>
                       <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">

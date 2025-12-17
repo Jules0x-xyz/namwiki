@@ -614,3 +614,14 @@ body {
   background: rgba(255, 255, 0, 0.3);
   color: inherit;
 }
+
+/* Blog author avatar with yellow background */
+.avatar__photo {
+  background: #FFFF00;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+[data-theme='dark'] .avatar__photo {
+  background: #FFFF00;
+}
