@@ -19,7 +19,7 @@ const videos = [
   {
     title: 'What is Namada? Introduction to Privacy Blockchain',
     channel: 'Namada Official',
-    url: 'https://youtube.com/watch?v=example1',
+    url: 'https://www.youtube.com/watch?v=wLDlNGa4vug',
     description: 'Learn the fundamentals of Namada and why privacy matters in blockchain.',
   },
   {
