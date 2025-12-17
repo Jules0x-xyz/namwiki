@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -10,6 +9,8 @@ function HeroSection() {
     <section className={styles.hero}>
       <div className={styles.heroBackground}>
         <div className={styles.gridPattern}></div>
+        <div className={styles.glowOrb}></div>
+        <div className={styles.glowOrb2}></div>
       </div>
       <div className={styles.heroContent}>
         <div className={styles.heroLogo}>
@@ -17,18 +18,18 @@ function HeroSection() {
         </div>
         <h1 className={styles.heroTitle}>NamWiki</h1>
         <p className={styles.heroTagline}>
-          Your gateway to understanding Namada
+          Learn Namada. Protect Your Privacy.
         </p>
         <p className={styles.heroDescription}>
-          Community-driven education hub for the privacy-first blockchain.
-          Learn, contribute, and grow with Namada.
+          The open-source education hub for Namada blockchain. 
+          Comprehensive guides, tutorials, and resources built by the community.
         </p>
         <div className={styles.heroButtons}>
           <Link className={styles.buttonPrimary} to="/docs/getting-started/what-is-namada">
             Start Learning
           </Link>
-          <Link className={styles.buttonSecondary} to="/docs/contributing/how-to-contribute">
-            Contribute
+          <Link className={styles.buttonSecondary} to="/docs/guides/wallets/install-namada-extension">
+            Setup Wallet
           </Link>
         </div>
       </div>
@@ -39,27 +40,31 @@ function HeroSection() {
 const learningPaths = [
   {
     title: 'Getting Started',
-    description: 'New to Namada? Start here with the fundamentals of privacy-first blockchain technology.',
+    description: 'New to Namada? Start with the fundamentals of privacy-first blockchain technology.',
     link: '/docs/getting-started/what-is-namada',
     items: ['What is Namada', 'Why Privacy Matters', 'First Steps', 'Quick Start Guide'],
+    icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
   },
   {
     title: 'Wallet Setup',
-    description: 'Learn how to set up and manage your Namada wallets securely.',
+    description: 'Set up and manage your Namada wallets securely for full control of your assets.',
     link: '/docs/guides/wallets/install-namada-extension',
     items: ['Browser Extension', 'Keplr Integration', 'CLI Wallet', 'Wallet Comparison'],
+    icon: 'M21 12a2.25 2.25 0 00-2.25-2.25H15a3 3 0 11-6 0H5.25A2.25 2.25 0 003 12m18 0v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 9m18 0V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v3',
   },
   {
     title: 'Transactions',
-    description: 'Master shielded transactions and asset management on Namada.',
+    description: 'Master shielded transactions and asset management for maximum privacy.',
     link: '/docs/guides/transactions/buy-nam',
     items: ['Buy NAM', 'Shield Assets', 'IBC Transfers', 'Shielded Transactions'],
+    icon: 'M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5',
   },
   {
     title: 'Staking & Governance',
-    description: 'Participate in network security and community decisions.',
+    description: 'Participate in network security and community governance decisions.',
     link: '/docs/guides/staking/understanding-staking',
     items: ['Stake NAM', 'Choose Validators', 'Vote on Proposals', 'PGF Funding'],
+    icon: 'M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z',
   },
 ];
 
@@ -69,11 +74,16 @@ function LearningPathsSection() {
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Learning Paths</h2>
         <p className={styles.sectionSubtitle}>
-          Choose your path and start learning at your own pace
+          Choose your path and learn at your own pace
         </p>
         <div className={styles.pathsGrid}>
           {learningPaths.map((path, idx) => (
             <Link key={idx} to={path.link} className={styles.pathCard}>
+              <div className={styles.pathIcon}>
+                <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d={path.icon} />
+                </svg>
+              </div>
               <h3 className={styles.pathTitle}>{path.title}</h3>
               <p className={styles.pathDescription}>{path.description}</p>
               <ul className={styles.pathItems}>
@@ -82,7 +92,7 @@ function LearningPathsSection() {
                 ))}
               </ul>
               <span className={styles.pathLink}>
-                Explore <span className={styles.arrow}>→</span>
+                Explore <span className={styles.arrow}>&rarr;</span>
               </span>
             </Link>
           ))}
@@ -95,22 +105,22 @@ function LearningPathsSection() {
 const concepts = [
   {
     title: 'MASP',
-    description: 'Multi-Asset Shielded Pool - The core privacy technology enabling unified shielded transactions.',
+    description: 'Multi-Asset Shielded Pool enables unified privacy for all assets in a single pool.',
     link: '/docs/concepts/masp-explained',
   },
   {
     title: 'zk-SNARKs',
-    description: 'Zero-knowledge proofs that verify transactions without revealing private information.',
+    description: 'Zero-knowledge proofs verify transactions without revealing private data.',
     link: '/docs/concepts/zk-snarks-eli5',
   },
   {
     title: 'Governance',
-    description: 'Decentralized decision-making through on-chain proposals and community voting.',
+    description: 'On-chain decision-making through proposals and community voting.',
     link: '/docs/concepts/governance-basics',
   },
   {
     title: 'PGF',
-    description: 'Public Goods Funding mechanism supporting ecosystem development and community projects.',
+    description: 'Public Goods Funding supports ecosystem development and community projects.',
     link: '/docs/concepts/pgf-system',
   },
 ];
@@ -143,25 +153,34 @@ function ContributeSection() {
         <div className={styles.contributeContent}>
           <h2 className={styles.sectionTitle}>Contribute to NamWiki</h2>
           <p className={styles.contributeText}>
-            NamWiki is community-driven and open source. Help us improve by writing guides, 
-            fixing errors, translating content, or suggesting improvements.
+            NamWiki is open source and community-driven. Write guides, 
+            translate content, or improve documentation.
           </p>
           <div className={styles.contributeOptions}>
             <div className={styles.contributeOption}>
+              <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={styles.optionIcon}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+              </svg>
               <h4>Write Content</h4>
-              <p>Create guides, tutorials, and educational articles</p>
+              <p>Create guides and tutorials</p>
             </div>
             <div className={styles.contributeOption}>
+              <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={styles.optionIcon}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
+              </svg>
               <h4>Translate</h4>
-              <p>Help translate content to reach a global audience</p>
+              <p>Help reach global audience</p>
             </div>
             <div className={styles.contributeOption}>
+              <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={styles.optionIcon}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+              </svg>
               <h4>Review</h4>
-              <p>Review pull requests and improve existing content</p>
+              <p>Improve existing content</p>
             </div>
           </div>
           <Link className={styles.buttonPrimary} to="/docs/contributing/how-to-contribute">
-            Learn How to Contribute
+            How to Contribute
           </Link>
         </div>
       </div>

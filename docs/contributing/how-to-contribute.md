@@ -6,121 +6,123 @@ sidebar_position: 1
 
 # How to Contribute
 
-NamWiki is a community-driven project. This guide explains how you can contribute content, translations, and improvements.
+NamWiki is open source and community-driven. Anyone can contribute content, translations, or improvements.
 
-## Quick Start
+## Quick Start (5 minutes)
 
 The fastest way to contribute:
 
-1. Find a page you want to improve
-2. Click "Edit this page" at the bottom
-3. Make your changes on GitHub
-4. Submit a Pull Request
+| Step | Action |
+|------|--------|
+| 1 | Find a page you want to improve |
+| 2 | Click **Edit this page** at the bottom |
+| 3 | Make your changes on GitHub |
+| 4 | Submit a Pull Request |
 
-That's it! Our team will review and merge your contribution.
+Our team reviews and merges contributions within 24-48 hours.
 
-## Contribution Types
+## Ways to Contribute
 
-### Documentation
+### Write Documentation
 
-Write or improve guides, tutorials, and explanations.
+Add new guides, tutorials, or explanations.
 
-**How to add a new page:**
-
-1. Go to the [GitHub repository](https://github.com/Jules0x-xyz/namwiki)
-2. Navigate to the `docs/` folder
-3. Choose the appropriate category folder
+**Steps:**
+1. Go to [GitHub repository](https://github.com/Jules0x-xyz/namwiki)
+2. Navigate to `docs/` folder
+3. Choose the appropriate category
 4. Create a new `.md` file
 5. Add frontmatter and content
 6. Submit a Pull Request
 
-**Example file structure:**
+**Folder structure:**
 ```
 docs/
-├── getting-started/
+├── getting-started/     # Intro content
 ├── guides/
-│   ├── wallets/
-│   ├── transactions/
-│   ├── staking/
-│   └── governance/
-├── concepts/
-├── resources/
-└── contributing/
+│   ├── wallets/         # Wallet tutorials
+│   ├── transactions/    # Transaction guides
+│   ├── staking/         # Staking guides
+│   └── governance/      # Governance guides
+├── concepts/            # Technical explanations
+├── resources/           # Reference materials
+└── contributing/        # Contribution docs
 ```
 
-### Blog Posts
+### Submit Blog Posts
 
-Share news, updates, tutorials, or analysis.
+Share news, tutorials, or analysis with the community.
 
-**How to submit a blog post:**
-
-1. Navigate to the `blog/` folder
-2. Create a new file: `YYYY-MM-DD-your-title.md`
-3. Add the required frontmatter
+**Steps:**
+1. Navigate to `blog/` folder
+2. Create file: `YYYY-MM-DD-your-title.md`
+3. Add required frontmatter
 4. Write your content
-5. Submit a Pull Request
+5. Submit Pull Request
 
-**Blog post template:**
+**Template:**
 ```markdown
 ---
 slug: your-post-slug
 title: Your Post Title
 authors: [your-github-username]
-tags: [tag1, tag2]
+tags: [tutorial, namada]
 ---
 
-Your introduction paragraph.
+Introduction paragraph.
 
 <!-- truncate -->
 
-Rest of your content...
+Rest of content...
 ```
 
-### Translations
+### Translate Content
 
-Help translate content to other languages.
+Help make NamWiki accessible globally.
 
 **Supported languages:**
-- English (default)
-- Spanish (es)
-- Portuguese (pt)
-- French (fr)
-- Chinese (zh)
 
-**How to translate:**
+| Code | Language |
+|------|----------|
+| en | English (default) |
+| es | Spanish |
+| pt | Portuguese |
+| fr | French |
+| zh | Chinese |
 
+**Steps:**
 1. Navigate to `i18n/[language-code]/`
-2. Find the corresponding file
+2. Copy the English file structure
 3. Translate the content
-4. Submit a Pull Request
+4. Submit Pull Request
 
-### Videos
+### Add Videos
 
-Add video tutorials to the Videos page.
+Submit video tutorials to the Videos page.
 
+**Steps:**
 1. Edit `src/pages/videos.tsx`
 2. Add your video to the `videos` array
-3. Submit a Pull Request
+3. Include title, URL, channel name, and description
+4. Submit Pull Request
 
 ## File Format
 
 All content uses Markdown with YAML frontmatter.
 
-### Required Frontmatter
-
+**Required frontmatter:**
 ```yaml
 ---
 title: Page Title
-description: Brief description for SEO
+description: Brief SEO description
 sidebar_position: 1
 ---
 ```
 
-### Optional Frontmatter
-
+**Optional frontmatter:**
 ```yaml
 ---
-tags: [namada, tutorial, staking]
+tags: [namada, tutorial]
 keywords: [additional, seo, keywords]
 ---
 ```
@@ -129,32 +131,30 @@ keywords: [additional, seo, keywords]
 
 ### Style
 
-- Write clearly and concisely
+- Write clearly and directly
 - Use active voice
-- Address the reader directly (you/your)
+- Address reader as "you"
 - Break complex topics into steps
 - Include practical examples
 
 ### Structure
 
-1. Start with an introduction
-2. Organize content with headings (H2, H3)
-3. Use lists for steps or options
+1. Start with introduction
+2. Use headings (H2, H3)
+3. Use lists for steps
 4. Add code blocks where relevant
-5. End with next steps or related content
+5. End with next steps
 
-### Formatting
+### Formatting Reference
 
 ```markdown
-# Main Title (H1)
-## Section (H2)
-### Subsection (H3)
+## Section Heading
 
-**Bold text** for emphasis
-`inline code` for commands or values
+**Bold** for emphasis
+`code` for commands
 
-- Bullet list item
-- Another item
+- Bullet point
+- Another point
 
 1. Numbered step
 2. Next step
@@ -163,51 +163,48 @@ keywords: [additional, seo, keywords]
 |-------|--------|
 | Data  | Data   |
 
-> Blockquote for important notes
+> Important note
 
 :::tip
-Tip callout for helpful information
+Helpful tip
 :::
 
 :::warning
-Warning callout for cautions
+Caution message
 :::
 ```
 
 ## Local Development
 
-To preview changes locally:
+Preview changes locally:
 
 ```bash
-# Clone the repository
 git clone https://github.com/Jules0x-xyz/namwiki.git
 cd namwiki
-
-# Install dependencies
 npm install
-
-# Start development server
 npm start
 ```
 
-Open http://localhost:3000 to view your changes.
+Open http://localhost:3000 to view changes.
 
 ## Pull Request Process
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test locally if possible
-5. Submit a Pull Request
-6. Address any review feedback
-7. Your contribution gets merged
+| Step | Action |
+|------|--------|
+| 1 | Fork the repository |
+| 2 | Create feature branch |
+| 3 | Make changes |
+| 4 | Test locally |
+| 5 | Submit Pull Request |
+| 6 | Address review feedback |
+| 7 | Merged |
 
 ## Getting Help
 
-- Open an [issue](https://github.com/Jules0x-xyz/namwiki/issues) for questions
-- Join [Discord](https://discord.gg/namada) for community support
-- Contact hello@namwiki.xyz for direct inquiries
+- [GitHub Issues](https://github.com/Jules0x-xyz/namwiki/issues) for questions
+- [Discord](https://discord.gg/namada) for community support
+- hello@namwiki.xyz for direct inquiries
 
 ## Recognition
 
-Contributors are recognized on the site and in our documentation. Thank you for helping improve NamWiki!
+Contributors are recognized on the site. Thank you for improving NamWiki.

@@ -13,9 +13,11 @@ const config: Config = {
 
   url: 'https://namwiki.xyz',
   baseUrl: '/',
+  trailingSlash: false,
 
   organizationName: 'Jules0x-xyz',
   projectName: 'namwiki',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
