@@ -104,8 +104,8 @@ Many validators have dedicated websites with:
 | Red Flag | Why It's Concerning |
 |----------|-------------------|
 | 0% commission | Unsustainable, may raise later |
-| Very high commission (>20%) | Excessive fees |
-| Poor uptime (<95%) | Missing rewards |
+| Very high commission (over 20%) | Excessive fees |
+| Poor uptime (under 95%) | Missing rewards |
 | No self-stake | No skin in the game |
 | No online presence | Hard to contact |
 | Recent slashing events | Risk of future issues |

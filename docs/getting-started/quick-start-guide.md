@@ -35,8 +35,6 @@ Get from zero to shielded in 10 minutes! This guide covers everything you need t
 4. Click **Add to Chrome**
 5. Pin the extension to your toolbar
 
-![Install Extension](/img/guides/install-extension.png)
-
 ### Step 2: Create Your Wallet (2 min)
 
 1. Click the Namada extension icon
