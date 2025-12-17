@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/about",
+  "source": "@site/src/pages/about.md",
+  "title": "About NamWiki",
+  "description": "Learn about NamWiki and our mission",
+  "frontMatter": {
+    "title": "About NamWiki",
+    "description": "Learn about NamWiki and our mission"
+  },
+  "unlisted": false
+}

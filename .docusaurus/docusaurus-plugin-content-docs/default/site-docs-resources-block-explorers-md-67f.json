@@ -1,0 +1,64 @@
+{
+  "id": "resources/block-explorers",
+  "title": "Block Explorers",
+  "description": "Tools to explore the Namada blockchain",
+  "source": "@site/docs/resources/block-explorers.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/block-explorers",
+  "permalink": "/zh/docs/resources/block-explorers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/resources/block-explorers.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "explorer",
+      "permalink": "/zh/docs/tags/explorer"
+    },
+    {
+      "inline": true,
+      "label": "blockchain",
+      "permalink": "/zh/docs/tags/blockchain"
+    },
+    {
+      "inline": true,
+      "label": "tools",
+      "permalink": "/zh/docs/tags/tools"
+    },
+    {
+      "inline": true,
+      "label": "resources",
+      "permalink": "/zh/docs/tags/resources"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Block Explorers",
+    "description": "Tools to explore the Namada blockchain",
+    "sidebar_position": 5,
+    "tags": [
+      "explorer",
+      "blockchain",
+      "tools",
+      "resources"
+    ],
+    "keywords": [
+      "block explorer",
+      "namada explorer",
+      "transaction lookup",
+      "address search"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Where to Buy NAM",
+    "permalink": "/zh/docs/resources/where-to-buy"
+  },
+  "next": {
+    "title": "Community Links",
+    "permalink": "/zh/docs/resources/community-links"
+  }
+}

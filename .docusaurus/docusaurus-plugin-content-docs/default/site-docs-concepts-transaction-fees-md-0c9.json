@@ -1,0 +1,64 @@
+{
+  "id": "concepts/transaction-fees",
+  "title": "Transaction Fees",
+  "description": "Understanding transaction fees on Namada",
+  "source": "@site/docs/concepts/transaction-fees.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/transaction-fees",
+  "permalink": "/zh/docs/concepts/transaction-fees",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/concepts/transaction-fees.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "fees",
+      "permalink": "/zh/docs/tags/fees"
+    },
+    {
+      "inline": true,
+      "label": "transactions",
+      "permalink": "/zh/docs/tags/transactions"
+    },
+    {
+      "inline": true,
+      "label": "gas",
+      "permalink": "/zh/docs/tags/gas"
+    },
+    {
+      "inline": true,
+      "label": "costs",
+      "permalink": "/zh/docs/tags/costs"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Transaction Fees",
+    "description": "Understanding transaction fees on Namada",
+    "sidebar_position": 6,
+    "tags": [
+      "fees",
+      "transactions",
+      "gas",
+      "costs"
+    ],
+    "keywords": [
+      "transaction fees",
+      "gas fees",
+      "namada fees",
+      "transaction costs"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Privacy Best Practices",
+    "permalink": "/zh/docs/concepts/privacy-best-practices"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/zh/docs/resources/glossary"
+  }
+}

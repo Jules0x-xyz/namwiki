@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/roadmap",
+  "source": "@site/src/pages/roadmap.md",
+  "title": "Roadmap",
+  "description": "NamWiki development roadmap and future plans",
+  "frontMatter": {
+    "title": "Roadmap",
+    "description": "NamWiki development roadmap and future plans"
+  },
+  "unlisted": false
+}

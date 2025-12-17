@@ -1,0 +1,64 @@
+{
+  "id": "guides/wallets/setup-keplr",
+  "title": "Setup Keplr for Namada",
+  "description": "Configure Keplr wallet to work with Namada blockchain",
+  "source": "@site/docs/guides/wallets/setup-keplr.md",
+  "sourceDirName": "guides/wallets",
+  "slug": "/guides/wallets/setup-keplr",
+  "permalink": "/zh/docs/guides/wallets/setup-keplr",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/wallets/setup-keplr.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "wallet",
+      "permalink": "/zh/docs/tags/wallet"
+    },
+    {
+      "inline": true,
+      "label": "keplr",
+      "permalink": "/zh/docs/tags/keplr"
+    },
+    {
+      "inline": true,
+      "label": "cosmos",
+      "permalink": "/zh/docs/tags/cosmos"
+    },
+    {
+      "inline": true,
+      "label": "setup",
+      "permalink": "/zh/docs/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Setup Keplr for Namada",
+    "description": "Configure Keplr wallet to work with Namada blockchain",
+    "sidebar_position": 2,
+    "tags": [
+      "wallet",
+      "keplr",
+      "cosmos",
+      "setup"
+    ],
+    "keywords": [
+      "keplr namada",
+      "cosmos wallet",
+      "keplr setup",
+      "ibc wallet"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Install Namada Extension",
+    "permalink": "/zh/docs/guides/wallets/install-namada-extension"
+  },
+  "next": {
+    "title": "CLI Wallet Introduction",
+    "permalink": "/zh/docs/guides/wallets/cli-wallet-intro"
+  }
+}

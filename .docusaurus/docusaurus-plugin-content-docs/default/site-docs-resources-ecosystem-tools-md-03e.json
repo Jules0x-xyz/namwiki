@@ -1,0 +1,65 @@
+{
+  "id": "resources/ecosystem-tools",
+  "title": "Ecosystem Tools",
+  "description": "Useful tools and applications in the Namada ecosystem",
+  "source": "@site/docs/resources/ecosystem-tools.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/ecosystem-tools",
+  "permalink": "/zh/docs/resources/ecosystem-tools",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/resources/ecosystem-tools.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "tools",
+      "permalink": "/zh/docs/tags/tools"
+    },
+    {
+      "inline": true,
+      "label": "ecosystem",
+      "permalink": "/zh/docs/tags/ecosystem"
+    },
+    {
+      "inline": true,
+      "label": "resources",
+      "permalink": "/zh/docs/tags/resources"
+    },
+    {
+      "inline": true,
+      "label": "applications",
+      "permalink": "/zh/docs/tags/applications"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Ecosystem Tools",
+    "description": "Useful tools and applications in the Namada ecosystem",
+    "sidebar_position": 3,
+    "tags": [
+      "tools",
+      "ecosystem",
+      "resources",
+      "applications"
+    ],
+    "keywords": [
+      "namada tools",
+      "ecosystem",
+      "applications",
+      "resources",
+      "utilities"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/zh/docs/resources/faq"
+  },
+  "next": {
+    "title": "Where to Buy NAM",
+    "permalink": "/zh/docs/resources/where-to-buy"
+  }
+}

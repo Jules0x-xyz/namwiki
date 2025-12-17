@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknamwiki=globalThis.webpackChunknamwiki||[]).push([[9428],{1478(i){i.exports=JSON.parse('{"authors":[{"name":"NamWiki Team","title":"Community Contributors","url":"https://github.com/namwiki","imageURL":"https://github.com/namwiki.png","key":"namwiki","page":null,"count":1}]}')}}]);

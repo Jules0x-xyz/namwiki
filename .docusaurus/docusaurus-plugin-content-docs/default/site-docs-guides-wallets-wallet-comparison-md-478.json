@@ -1,0 +1,58 @@
+{
+  "id": "guides/wallets/wallet-comparison",
+  "title": "Wallet Comparison",
+  "description": "Compare Namada wallet options to find the best fit for your needs",
+  "source": "@site/docs/guides/wallets/wallet-comparison.md",
+  "sourceDirName": "guides/wallets",
+  "slug": "/guides/wallets/wallet-comparison",
+  "permalink": "/zh/docs/guides/wallets/wallet-comparison",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/wallets/wallet-comparison.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "wallet",
+      "permalink": "/zh/docs/tags/wallet"
+    },
+    {
+      "inline": true,
+      "label": "comparison",
+      "permalink": "/zh/docs/tags/comparison"
+    },
+    {
+      "inline": true,
+      "label": "choosing",
+      "permalink": "/zh/docs/tags/choosing"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Wallet Comparison",
+    "description": "Compare Namada wallet options to find the best fit for your needs",
+    "sidebar_position": 4,
+    "tags": [
+      "wallet",
+      "comparison",
+      "choosing"
+    ],
+    "keywords": [
+      "namada wallets",
+      "wallet comparison",
+      "best wallet",
+      "wallet features"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "CLI Wallet Introduction",
+    "permalink": "/zh/docs/guides/wallets/cli-wallet-intro"
+  },
+  "next": {
+    "title": "Buy NAM",
+    "permalink": "/zh/docs/guides/transactions/buy-nam"
+  }
+}

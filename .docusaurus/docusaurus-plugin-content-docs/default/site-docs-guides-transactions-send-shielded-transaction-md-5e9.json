@@ -1,0 +1,64 @@
+{
+  "id": "guides/transactions/send-shielded-transaction",
+  "title": "Send Shielded Transaction",
+  "description": "How to send private transactions using Namada's shielded pool",
+  "source": "@site/docs/guides/transactions/send-shielded-transaction.md",
+  "sourceDirName": "guides/transactions",
+  "slug": "/guides/transactions/send-shielded-transaction",
+  "permalink": "/zh/docs/guides/transactions/send-shielded-transaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/transactions/send-shielded-transaction.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "shielded",
+      "permalink": "/zh/docs/tags/shielded"
+    },
+    {
+      "inline": true,
+      "label": "private",
+      "permalink": "/zh/docs/tags/private"
+    },
+    {
+      "inline": true,
+      "label": "transaction",
+      "permalink": "/zh/docs/tags/transaction"
+    },
+    {
+      "inline": true,
+      "label": "tutorial",
+      "permalink": "/zh/docs/tags/tutorial"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Send Shielded Transaction",
+    "description": "How to send private transactions using Namada's shielded pool",
+    "sidebar_position": 6,
+    "tags": [
+      "shielded",
+      "private",
+      "transaction",
+      "tutorial"
+    ],
+    "keywords": [
+      "shielded transaction",
+      "private transfer",
+      "znam",
+      "masp transfer"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Unshield Assets",
+    "permalink": "/zh/docs/guides/transactions/unshield-assets"
+  },
+  "next": {
+    "title": "Understanding Staking",
+    "permalink": "/zh/docs/guides/staking/understanding-staking"
+  }
+}

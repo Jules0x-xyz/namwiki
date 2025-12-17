@@ -1,0 +1,64 @@
+{
+  "id": "resources/where-to-buy",
+  "title": "Where to Buy NAM",
+  "description": "Exchanges and methods to purchase NAM tokens",
+  "source": "@site/docs/resources/where-to-buy.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/where-to-buy",
+  "permalink": "/zh/docs/resources/where-to-buy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/resources/where-to-buy.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "buy",
+      "permalink": "/zh/docs/tags/buy"
+    },
+    {
+      "inline": true,
+      "label": "exchanges",
+      "permalink": "/zh/docs/tags/exchanges"
+    },
+    {
+      "inline": true,
+      "label": "purchase",
+      "permalink": "/zh/docs/tags/purchase"
+    },
+    {
+      "inline": true,
+      "label": "trading",
+      "permalink": "/zh/docs/tags/trading"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Where to Buy NAM",
+    "description": "Exchanges and methods to purchase NAM tokens",
+    "sidebar_position": 4,
+    "tags": [
+      "buy",
+      "exchanges",
+      "purchase",
+      "trading"
+    ],
+    "keywords": [
+      "buy nam",
+      "nam exchange",
+      "purchase nam tokens",
+      "trading"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Ecosystem Tools",
+    "permalink": "/zh/docs/resources/ecosystem-tools"
+  },
+  "next": {
+    "title": "Block Explorers",
+    "permalink": "/zh/docs/resources/block-explorers"
+  }
+}

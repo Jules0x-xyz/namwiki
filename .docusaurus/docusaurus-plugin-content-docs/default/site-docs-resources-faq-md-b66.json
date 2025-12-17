@@ -1,0 +1,64 @@
+{
+  "id": "resources/faq",
+  "title": "FAQ",
+  "description": "Frequently asked questions about Namada",
+  "source": "@site/docs/resources/faq.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/faq",
+  "permalink": "/zh/docs/resources/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/resources/faq.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "faq",
+      "permalink": "/zh/docs/tags/faq"
+    },
+    {
+      "inline": true,
+      "label": "questions",
+      "permalink": "/zh/docs/tags/questions"
+    },
+    {
+      "inline": true,
+      "label": "help",
+      "permalink": "/zh/docs/tags/help"
+    },
+    {
+      "inline": true,
+      "label": "support",
+      "permalink": "/zh/docs/tags/support"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "FAQ",
+    "description": "Frequently asked questions about Namada",
+    "sidebar_position": 2,
+    "tags": [
+      "faq",
+      "questions",
+      "help",
+      "support"
+    ],
+    "keywords": [
+      "namada faq",
+      "common questions",
+      "help",
+      "troubleshooting"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/zh/docs/resources/glossary"
+  },
+  "next": {
+    "title": "Ecosystem Tools",
+    "permalink": "/zh/docs/resources/ecosystem-tools"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "resources/community-links",
+  "title": "Community Links",
+  "description": "Connect with the Namada community",
+  "source": "@site/docs/resources/community-links.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/community-links",
+  "permalink": "/zh/docs/resources/community-links",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/resources/community-links.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "community",
+      "permalink": "/zh/docs/tags/community"
+    },
+    {
+      "inline": true,
+      "label": "social",
+      "permalink": "/zh/docs/tags/social"
+    },
+    {
+      "inline": true,
+      "label": "links",
+      "permalink": "/zh/docs/tags/links"
+    },
+    {
+      "inline": true,
+      "label": "resources",
+      "permalink": "/zh/docs/tags/resources"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Community Links",
+    "description": "Connect with the Namada community",
+    "sidebar_position": 6,
+    "tags": [
+      "community",
+      "social",
+      "links",
+      "resources"
+    ],
+    "keywords": [
+      "namada community",
+      "discord",
+      "twitter",
+      "forum",
+      "social media"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Block Explorers",
+    "permalink": "/zh/docs/resources/block-explorers"
+  },
+  "next": {
+    "title": "How to Contribute",
+    "permalink": "/zh/docs/contributing/how-to-contribute"
+  }
+}

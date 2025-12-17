@@ -1,0 +1,64 @@
+{
+  "id": "concepts/pgf-system",
+  "title": "PGF System",
+  "description": "Understanding Namada's Public Goods Funding mechanism",
+  "source": "@site/docs/concepts/pgf-system.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/pgf-system",
+  "permalink": "/zh/docs/concepts/pgf-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/concepts/pgf-system.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "pgf",
+      "permalink": "/zh/docs/tags/pgf"
+    },
+    {
+      "inline": true,
+      "label": "governance",
+      "permalink": "/zh/docs/tags/governance"
+    },
+    {
+      "inline": true,
+      "label": "funding",
+      "permalink": "/zh/docs/tags/funding"
+    },
+    {
+      "inline": true,
+      "label": "public-goods",
+      "permalink": "/zh/docs/tags/public-goods"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "PGF System",
+    "description": "Understanding Namada's Public Goods Funding mechanism",
+    "sidebar_position": 3,
+    "tags": [
+      "pgf",
+      "governance",
+      "funding",
+      "public-goods"
+    ],
+    "keywords": [
+      "pgf",
+      "public goods funding",
+      "namada treasury",
+      "community funding"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "zk-SNARKs ELI5",
+    "permalink": "/zh/docs/concepts/zk-snarks-eli5"
+  },
+  "next": {
+    "title": "Governance Basics",
+    "permalink": "/zh/docs/concepts/governance-basics"
+  }
+}

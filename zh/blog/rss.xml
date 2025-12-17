@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>NamWiki Blog</title>
+        <link>https://namwiki.xyz/zh/blog</link>
+        <description>NamWiki Blog</description>
+        <lastBuildDate>Tue, 17 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh</language>
+        <item>
+            <title><![CDATA[Welcome to NamWiki]]></title>
+            <link>https://namwiki.xyz/zh/blog/welcome</link>
+            <guid>https://namwiki.xyz/zh/blog/welcome</guid>
+            <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're excited to launch NamWiki, your community-driven education hub for Namada.]]></description>
+            <content:encoded><![CDATA[<p>We're excited to launch NamWiki, your community-driven education hub for Namada.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-namwiki">What is NamWiki?<a href="https://namwiki.xyz/zh/blog/welcome#what-is-namwiki" class="hash-link" aria-label="What is NamWiki?的直接链接" title="What is NamWiki?的直接链接" translate="no">​</a></h2>
+<p>NamWiki is an open-source educational resource designed to help everyone understand and use Namada, the privacy-first blockchain.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-youll-find">What You'll Find<a href="https://namwiki.xyz/zh/blog/welcome#what-youll-find" class="hash-link" aria-label="What You'll Find的直接链接" title="What You'll Find的直接链接" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Getting Started guides</strong> - For complete beginners</li>
+<li class=""><strong>Step-by-step tutorials</strong> - Wallets, staking, shielding, and more</li>
+<li class=""><strong>Concept explanations</strong> - MASP, zk-SNARKs, governance</li>
+<li class=""><strong>Resources</strong> - Glossary, FAQ, ecosystem tools</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="get-involved">Get Involved<a href="https://namwiki.xyz/zh/blog/welcome#get-involved" class="hash-link" aria-label="Get Involved的直接链接" title="Get Involved的直接链接" translate="no">​</a></h2>
+<p>NamWiki is community-driven. You can:</p>
+<ul>
+<li class="">📝 Contribute content</li>
+<li class="">🌍 Help with translations</li>
+<li class="">🐛 Report issues</li>
+<li class="">⭐ Star us on GitHub</li>
+</ul>
+<p>Visit our <a class="" href="https://namwiki.xyz/zh/docs/contributing/how-to-contribute">Contributing guide</a> to get started.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="stay-updated">Stay Updated<a href="https://namwiki.xyz/zh/blog/welcome#stay-updated" class="hash-link" aria-label="Stay Updated的直接链接" title="Stay Updated的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">Subscribe to our <a href="https://namwiki.substack.com/" target="_blank" rel="noopener noreferrer" class="">newsletter</a></li>
+<li class="">Follow on <a href="https://twitter.com/namada" target="_blank" rel="noopener noreferrer" class="">Twitter</a></li>
+<li class="">Join the <a href="https://discord.gg/namada" target="_blank" rel="noopener noreferrer" class="">Discord</a></li>
+</ul>
+<p>Thank you for being part of the NamWiki community!</p>
+<p>— The NamWiki Team</p>]]></content:encoded>
+            <category>announcement</category>
+            <category>namwiki</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,64 @@
+{
+  "id": "concepts/masp-explained",
+  "title": "MASP Explained",
+  "description": "Understanding Namada's Multi-Asset Shielded Pool technology",
+  "source": "@site/docs/concepts/masp-explained.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/masp-explained",
+  "permalink": "/zh/docs/concepts/masp-explained",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/concepts/masp-explained.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "masp",
+      "permalink": "/zh/docs/tags/masp"
+    },
+    {
+      "inline": true,
+      "label": "privacy",
+      "permalink": "/zh/docs/tags/privacy"
+    },
+    {
+      "inline": true,
+      "label": "technology",
+      "permalink": "/zh/docs/tags/technology"
+    },
+    {
+      "inline": true,
+      "label": "concepts",
+      "permalink": "/zh/docs/tags/concepts"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "MASP Explained",
+    "description": "Understanding Namada's Multi-Asset Shielded Pool technology",
+    "sidebar_position": 1,
+    "tags": [
+      "masp",
+      "privacy",
+      "technology",
+      "concepts"
+    ],
+    "keywords": [
+      "masp",
+      "multi-asset shielded pool",
+      "namada privacy",
+      "shielded transactions"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Apply for PGF Funding",
+    "permalink": "/zh/docs/guides/governance/apply-for-pgf"
+  },
+  "next": {
+    "title": "zk-SNARKs ELI5",
+    "permalink": "/zh/docs/concepts/zk-snarks-eli5"
+  }
+}

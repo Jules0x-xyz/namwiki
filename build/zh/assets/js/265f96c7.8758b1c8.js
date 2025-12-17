@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknamwiki=globalThis.webpackChunknamwiki||[]).push([[457],{6599(a){a.exports=JSON.parse('{"metadata":{"permalink":"/zh/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Latest updates, tutorials and news from the Namada community","blogTitle":"NamWiki Blog"}}')}}]);

@@ -1,0 +1,64 @@
+{
+  "id": "guides/transactions/buy-nam",
+  "title": "Buy NAM",
+  "description": "Where and how to purchase NAM tokens",
+  "source": "@site/docs/guides/transactions/buy-nam.md",
+  "sourceDirName": "guides/transactions",
+  "slug": "/guides/transactions/buy-nam",
+  "permalink": "/zh/docs/guides/transactions/buy-nam",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/transactions/buy-nam.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "buy",
+      "permalink": "/zh/docs/tags/buy"
+    },
+    {
+      "inline": true,
+      "label": "exchange",
+      "permalink": "/zh/docs/tags/exchange"
+    },
+    {
+      "inline": true,
+      "label": "nam",
+      "permalink": "/zh/docs/tags/nam"
+    },
+    {
+      "inline": true,
+      "label": "tokens",
+      "permalink": "/zh/docs/tags/tokens"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Buy NAM",
+    "description": "Where and how to purchase NAM tokens",
+    "sidebar_position": 1,
+    "tags": [
+      "buy",
+      "exchange",
+      "nam",
+      "tokens"
+    ],
+    "keywords": [
+      "buy nam",
+      "purchase nam",
+      "nam exchange",
+      "get nam tokens"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Wallet Comparison",
+    "permalink": "/zh/docs/guides/wallets/wallet-comparison"
+  },
+  "next": {
+    "title": "Send to Wallet",
+    "permalink": "/zh/docs/guides/transactions/send-to-wallet"
+  }
+}

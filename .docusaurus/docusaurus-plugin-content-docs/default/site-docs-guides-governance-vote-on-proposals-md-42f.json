@@ -1,0 +1,64 @@
+{
+  "id": "guides/governance/vote-on-proposals",
+  "title": "Vote on Proposals",
+  "description": "How to participate in Namada governance by voting on proposals",
+  "source": "@site/docs/guides/governance/vote-on-proposals.md",
+  "sourceDirName": "guides/governance",
+  "slug": "/guides/governance/vote-on-proposals",
+  "permalink": "/zh/docs/guides/governance/vote-on-proposals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/governance/vote-on-proposals.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "governance",
+      "permalink": "/zh/docs/tags/governance"
+    },
+    {
+      "inline": true,
+      "label": "voting",
+      "permalink": "/zh/docs/tags/voting"
+    },
+    {
+      "inline": true,
+      "label": "proposals",
+      "permalink": "/zh/docs/tags/proposals"
+    },
+    {
+      "inline": true,
+      "label": "participation",
+      "permalink": "/zh/docs/tags/participation"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Vote on Proposals",
+    "description": "How to participate in Namada governance by voting on proposals",
+    "sidebar_position": 1,
+    "tags": [
+      "governance",
+      "voting",
+      "proposals",
+      "participation"
+    ],
+    "keywords": [
+      "vote namada",
+      "governance voting",
+      "proposals",
+      "dao voting"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Claim Rewards",
+    "permalink": "/zh/docs/guides/staking/claim-rewards"
+  },
+  "next": {
+    "title": "Create a Proposal",
+    "permalink": "/zh/docs/guides/governance/create-proposal"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "guides/wallets/install-namada-extension",
+  "title": "Install Namada Extension",
+  "description": "Step-by-step guide to install and set up the Namada browser extension wallet",
+  "source": "@site/docs/guides/wallets/install-namada-extension.md",
+  "sourceDirName": "guides/wallets",
+  "slug": "/guides/wallets/install-namada-extension",
+  "permalink": "/zh/docs/guides/wallets/install-namada-extension",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/wallets/install-namada-extension.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "wallet",
+      "permalink": "/zh/docs/tags/wallet"
+    },
+    {
+      "inline": true,
+      "label": "extension",
+      "permalink": "/zh/docs/tags/extension"
+    },
+    {
+      "inline": true,
+      "label": "browser",
+      "permalink": "/zh/docs/tags/browser"
+    },
+    {
+      "inline": true,
+      "label": "setup",
+      "permalink": "/zh/docs/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Install Namada Extension",
+    "description": "Step-by-step guide to install and set up the Namada browser extension wallet",
+    "sidebar_position": 1,
+    "tags": [
+      "wallet",
+      "extension",
+      "browser",
+      "setup"
+    ],
+    "keywords": [
+      "namada extension",
+      "browser wallet",
+      "chrome extension",
+      "wallet setup"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Shielded vs Transparent",
+    "permalink": "/zh/docs/getting-started/shielded-vs-transparent"
+  },
+  "next": {
+    "title": "Setup Keplr for Namada",
+    "permalink": "/zh/docs/guides/wallets/setup-keplr"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "getting-started/what-is-namada",
+  "title": "What is Namada?",
+  "description": "Learn about Namada, the first privacy-focused blockchain with multi-asset shielded transfers",
+  "source": "@site/docs/getting-started/what-is-namada.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/what-is-namada",
+  "permalink": "/zh/docs/getting-started/what-is-namada",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/getting-started/what-is-namada.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "namada",
+      "permalink": "/zh/docs/tags/namada"
+    },
+    {
+      "inline": true,
+      "label": "introduction",
+      "permalink": "/zh/docs/tags/introduction"
+    },
+    {
+      "inline": true,
+      "label": "privacy",
+      "permalink": "/zh/docs/tags/privacy"
+    },
+    {
+      "inline": true,
+      "label": "blockchain",
+      "permalink": "/zh/docs/tags/blockchain"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "What is Namada?",
+    "description": "Learn about Namada, the first privacy-focused blockchain with multi-asset shielded transfers",
+    "sidebar_position": 1,
+    "tags": [
+      "namada",
+      "introduction",
+      "privacy",
+      "blockchain"
+    ],
+    "keywords": [
+      "namada",
+      "masp",
+      "privacy blockchain",
+      "shielded transfers"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "next": {
+    "title": "What is Namada?",
+    "permalink": "/zh/docs/getting-started/what-is-namada"
+  }
+}

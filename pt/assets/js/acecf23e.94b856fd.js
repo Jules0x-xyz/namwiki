@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknamwiki=globalThis.webpackChunknamwiki||[]).push([[1903],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/pt/blog","blogTitle":"NamWiki Blog","authorsListPath":"/pt/blog/authors"}')}}]);

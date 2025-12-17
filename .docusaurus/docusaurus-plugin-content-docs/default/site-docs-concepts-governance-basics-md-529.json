@@ -1,0 +1,64 @@
+{
+  "id": "concepts/governance-basics",
+  "title": "Governance Basics",
+  "description": "Understanding Namada's on-chain governance system",
+  "source": "@site/docs/concepts/governance-basics.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/governance-basics",
+  "permalink": "/zh/docs/concepts/governance-basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/concepts/governance-basics.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "governance",
+      "permalink": "/zh/docs/tags/governance"
+    },
+    {
+      "inline": true,
+      "label": "voting",
+      "permalink": "/zh/docs/tags/voting"
+    },
+    {
+      "inline": true,
+      "label": "proposals",
+      "permalink": "/zh/docs/tags/proposals"
+    },
+    {
+      "inline": true,
+      "label": "decentralization",
+      "permalink": "/zh/docs/tags/decentralization"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Governance Basics",
+    "description": "Understanding Namada's on-chain governance system",
+    "sidebar_position": 4,
+    "tags": [
+      "governance",
+      "voting",
+      "proposals",
+      "decentralization"
+    ],
+    "keywords": [
+      "namada governance",
+      "on-chain voting",
+      "dao",
+      "proposals"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "PGF System",
+    "permalink": "/zh/docs/concepts/pgf-system"
+  },
+  "next": {
+    "title": "Privacy Best Practices",
+    "permalink": "/zh/docs/concepts/privacy-best-practices"
+  }
+}

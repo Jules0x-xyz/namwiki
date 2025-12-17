@@ -1,0 +1,64 @@
+{
+  "id": "guides/transactions/unshield-assets",
+  "title": "Unshield Assets",
+  "description": "How to unshield assets from the MASP back to transparent addresses",
+  "source": "@site/docs/guides/transactions/unshield-assets.md",
+  "sourceDirName": "guides/transactions",
+  "slug": "/guides/transactions/unshield-assets",
+  "permalink": "/zh/docs/guides/transactions/unshield-assets",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/transactions/unshield-assets.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "unshield",
+      "permalink": "/zh/docs/tags/unshield"
+    },
+    {
+      "inline": true,
+      "label": "transparent",
+      "permalink": "/zh/docs/tags/transparent"
+    },
+    {
+      "inline": true,
+      "label": "withdraw",
+      "permalink": "/zh/docs/tags/withdraw"
+    },
+    {
+      "inline": true,
+      "label": "tutorial",
+      "permalink": "/zh/docs/tags/tutorial"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Unshield Assets",
+    "description": "How to unshield assets from the MASP back to transparent addresses",
+    "sidebar_position": 5,
+    "tags": [
+      "unshield",
+      "transparent",
+      "withdraw",
+      "tutorial"
+    ],
+    "keywords": [
+      "unshield assets",
+      "withdraw shielded",
+      "transparent transfer",
+      "exit masp"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Shield Assets",
+    "permalink": "/zh/docs/guides/transactions/shield-assets"
+  },
+  "next": {
+    "title": "Send Shielded Transaction",
+    "permalink": "/zh/docs/guides/transactions/send-shielded-transaction"
+  }
+}

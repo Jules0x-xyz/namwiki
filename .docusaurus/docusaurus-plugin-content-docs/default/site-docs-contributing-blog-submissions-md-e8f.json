@@ -1,0 +1,31 @@
+{
+  "id": "contributing/blog-submissions",
+  "title": "Blog Submissions",
+  "description": "How to submit blog posts to NamWiki",
+  "source": "@site/docs/contributing/blog-submissions.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/blog-submissions",
+  "permalink": "/zh/docs/contributing/blog-submissions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/contributing/blog-submissions.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765968477000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Blog Submissions",
+    "description": "How to submit blog posts to NamWiki",
+    "sidebar_position": 4
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Content Guidelines",
+    "permalink": "/zh/docs/contributing/content-guidelines"
+  },
+  "next": {
+    "title": "Bounties",
+    "permalink": "/zh/docs/contributing/bounties"
+  }
+}

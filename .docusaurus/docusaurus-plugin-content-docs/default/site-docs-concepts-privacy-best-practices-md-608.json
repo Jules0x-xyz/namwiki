@@ -1,0 +1,64 @@
+{
+  "id": "concepts/privacy-best-practices",
+  "title": "Privacy Best Practices",
+  "description": "Maximize your privacy when using Namada",
+  "source": "@site/docs/concepts/privacy-best-practices.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/privacy-best-practices",
+  "permalink": "/zh/docs/concepts/privacy-best-practices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/concepts/privacy-best-practices.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "privacy",
+      "permalink": "/zh/docs/tags/privacy"
+    },
+    {
+      "inline": true,
+      "label": "security",
+      "permalink": "/zh/docs/tags/security"
+    },
+    {
+      "inline": true,
+      "label": "best-practices",
+      "permalink": "/zh/docs/tags/best-practices"
+    },
+    {
+      "inline": true,
+      "label": "opsec",
+      "permalink": "/zh/docs/tags/opsec"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Privacy Best Practices",
+    "description": "Maximize your privacy when using Namada",
+    "sidebar_position": 5,
+    "tags": [
+      "privacy",
+      "security",
+      "best-practices",
+      "opsec"
+    ],
+    "keywords": [
+      "privacy tips",
+      "operational security",
+      "opsec",
+      "namada privacy"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Governance Basics",
+    "permalink": "/zh/docs/concepts/governance-basics"
+  },
+  "next": {
+    "title": "Transaction Fees",
+    "permalink": "/zh/docs/concepts/transaction-fees"
+  }
+}

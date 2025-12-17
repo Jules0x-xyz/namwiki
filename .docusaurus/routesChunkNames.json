@@ -1,0 +1,625 @@
+{
+  "/zh/blog-876": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "a4a5825c"
+      }
+    ],
+    "__props": "265f96c7"
+  },
+  "/zh/blog/archive-3be": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "ea5f88a6"
+  },
+  "/zh/blog/authors-55d": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "ed4c625d"
+  },
+  "/zh/blog/tags-e48": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "739e32bb"
+  },
+  "/zh/blog/tags/announcement-d35": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "a4a5825c"
+      }
+    ],
+    "__props": "f4836c57"
+  },
+  "/zh/blog/tags/namwiki-4b9": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "a4a5825c"
+      }
+    ],
+    "__props": "043d9355"
+  },
+  "/zh/blog/welcome-9b6": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "8bdab132"
+  },
+  "/zh/videos-7cf": {
+    "__comp": "f3865bfb",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/zh/docs-a2b": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/zh/docs-b5f": {
+    "__comp": "a7bd4aaa",
+    "__props": "721b19a1"
+  },
+  "/zh/docs/tags-860": {
+    "__comp": "3720c009",
+    "__props": "5d671add"
+  },
+  "/zh/docs/tags/advanced-a02": {
+    "__comp": "df203c0f",
+    "__props": "cdffb9dc"
+  },
+  "/zh/docs/tags/applications-339": {
+    "__comp": "df203c0f",
+    "__props": "31e5cea7"
+  },
+  "/zh/docs/tags/basics-ea6": {
+    "__comp": "df203c0f",
+    "__props": "d5fd5bd7"
+  },
+  "/zh/docs/tags/beginner-731": {
+    "__comp": "df203c0f",
+    "__props": "c5850c77"
+  },
+  "/zh/docs/tags/best-practices-90a": {
+    "__comp": "df203c0f",
+    "__props": "87f1d75c"
+  },
+  "/zh/docs/tags/blockchain-e54": {
+    "__comp": "df203c0f",
+    "__props": "6567ba27"
+  },
+  "/zh/docs/tags/bounties-1f7": {
+    "__comp": "df203c0f",
+    "__props": "ea994c89"
+  },
+  "/zh/docs/tags/browser-2f2": {
+    "__comp": "df203c0f",
+    "__props": "3ab9c704"
+  },
+  "/zh/docs/tags/buy-a24": {
+    "__comp": "df203c0f",
+    "__props": "e5f4c249"
+  },
+  "/zh/docs/tags/choosing-66d": {
+    "__comp": "df203c0f",
+    "__props": "3367fab6"
+  },
+  "/zh/docs/tags/claim-b57": {
+    "__comp": "df203c0f",
+    "__props": "aa3e212c"
+  },
+  "/zh/docs/tags/cli-e85": {
+    "__comp": "df203c0f",
+    "__props": "f4de090b"
+  },
+  "/zh/docs/tags/command-line-936": {
+    "__comp": "df203c0f",
+    "__props": "0bf58781"
+  },
+  "/zh/docs/tags/community-9e0": {
+    "__comp": "df203c0f",
+    "__props": "f9ee77cf"
+  },
+  "/zh/docs/tags/comparison-0c9": {
+    "__comp": "df203c0f",
+    "__props": "77b0b9d9"
+  },
+  "/zh/docs/tags/concepts-bd7": {
+    "__comp": "df203c0f",
+    "__props": "10af06e3"
+  },
+  "/zh/docs/tags/content-63e": {
+    "__comp": "df203c0f",
+    "__props": "e691e993"
+  },
+  "/zh/docs/tags/contribution-d66": {
+    "__comp": "df203c0f",
+    "__props": "0a3bdfea"
+  },
+  "/zh/docs/tags/cosmos-d7d": {
+    "__comp": "df203c0f",
+    "__props": "70ddfcdf"
+  },
+  "/zh/docs/tags/costs-03a": {
+    "__comp": "df203c0f",
+    "__props": "eee432f4"
+  },
+  "/zh/docs/tags/create-689": {
+    "__comp": "df203c0f",
+    "__props": "6ef1ef75"
+  },
+  "/zh/docs/tags/criteria-952": {
+    "__comp": "df203c0f",
+    "__props": "ab2eee97"
+  },
+  "/zh/docs/tags/cryptography-ba8": {
+    "__comp": "df203c0f",
+    "__props": "811aecdd"
+  },
+  "/zh/docs/tags/decentralization-a7a": {
+    "__comp": "df203c0f",
+    "__props": "a2077a9d"
+  },
+  "/zh/docs/tags/delegate-ed8": {
+    "__comp": "df203c0f",
+    "__props": "229a7f30"
+  },
+  "/zh/docs/tags/delegation-c6e": {
+    "__comp": "df203c0f",
+    "__props": "a3ae3fc7"
+  },
+  "/zh/docs/tags/earn-ee0": {
+    "__comp": "df203c0f",
+    "__props": "59f93f0c"
+  },
+  "/zh/docs/tags/ecosystem-c22": {
+    "__comp": "df203c0f",
+    "__props": "6b7d7d38"
+  },
+  "/zh/docs/tags/exchange-a63": {
+    "__comp": "df203c0f",
+    "__props": "ad649e45"
+  },
+  "/zh/docs/tags/exchanges-21d": {
+    "__comp": "df203c0f",
+    "__props": "1becc7f4"
+  },
+  "/zh/docs/tags/explorer-066": {
+    "__comp": "df203c0f",
+    "__props": "f68f233a"
+  },
+  "/zh/docs/tags/extension-209": {
+    "__comp": "df203c0f",
+    "__props": "f3794f0c"
+  },
+  "/zh/docs/tags/faq-8aa": {
+    "__comp": "df203c0f",
+    "__props": "38c79043"
+  },
+  "/zh/docs/tags/fees-214": {
+    "__comp": "df203c0f",
+    "__props": "dc9184e4"
+  },
+  "/zh/docs/tags/fundamentals-f1a": {
+    "__comp": "df203c0f",
+    "__props": "e7f030ff"
+  },
+  "/zh/docs/tags/funding-882": {
+    "__comp": "df203c0f",
+    "__props": "863278f8"
+  },
+  "/zh/docs/tags/gas-eac": {
+    "__comp": "df203c0f",
+    "__props": "0006a0fd"
+  },
+  "/zh/docs/tags/getting-started-437": {
+    "__comp": "df203c0f",
+    "__props": "a3e945c9"
+  },
+  "/zh/docs/tags/governance-2a2": {
+    "__comp": "df203c0f",
+    "__props": "6680f524"
+  },
+  "/zh/docs/tags/grants-7c3": {
+    "__comp": "df203c0f",
+    "__props": "6f21b152"
+  },
+  "/zh/docs/tags/guidelines-e6b": {
+    "__comp": "df203c0f",
+    "__props": "e5f40485"
+  },
+  "/zh/docs/tags/help-cc6": {
+    "__comp": "df203c0f",
+    "__props": "c329bea0"
+  },
+  "/zh/docs/tags/ibc-de6": {
+    "__comp": "df203c0f",
+    "__props": "821f9f95"
+  },
+  "/zh/docs/tags/interchain-297": {
+    "__comp": "df203c0f",
+    "__props": "392a0eb9"
+  },
+  "/zh/docs/tags/introduction-d59": {
+    "__comp": "df203c0f",
+    "__props": "be318e79"
+  },
+  "/zh/docs/tags/keplr-df2": {
+    "__comp": "df203c0f",
+    "__props": "c7c2aa2a"
+  },
+  "/zh/docs/tags/links-5c1": {
+    "__comp": "df203c0f",
+    "__props": "2f1e422e"
+  },
+  "/zh/docs/tags/masp-1b4": {
+    "__comp": "df203c0f",
+    "__props": "3f3d6118"
+  },
+  "/zh/docs/tags/nam-b44": {
+    "__comp": "df203c0f",
+    "__props": "00113e4a"
+  },
+  "/zh/docs/tags/namada-e77": {
+    "__comp": "df203c0f",
+    "__props": "b41f601e"
+  },
+  "/zh/docs/tags/opsec-f05": {
+    "__comp": "df203c0f",
+    "__props": "e3052b9d"
+  },
+  "/zh/docs/tags/participation-2ed": {
+    "__comp": "df203c0f",
+    "__props": "0ee8160c"
+  },
+  "/zh/docs/tags/pgf-542": {
+    "__comp": "df203c0f",
+    "__props": "f7b0b86c"
+  },
+  "/zh/docs/tags/pos-696": {
+    "__comp": "df203c0f",
+    "__props": "4d5616a2"
+  },
+  "/zh/docs/tags/privacy-2be": {
+    "__comp": "df203c0f",
+    "__props": "55f6d233"
+  },
+  "/zh/docs/tags/private-1e7": {
+    "__comp": "df203c0f",
+    "__props": "0de02b0d"
+  },
+  "/zh/docs/tags/proposals-3ce": {
+    "__comp": "df203c0f",
+    "__props": "e0ffe3dc"
+  },
+  "/zh/docs/tags/public-goods-dd1": {
+    "__comp": "df203c0f",
+    "__props": "3edec5a5"
+  },
+  "/zh/docs/tags/purchase-d57": {
+    "__comp": "df203c0f",
+    "__props": "8a749de3"
+  },
+  "/zh/docs/tags/quality-edd": {
+    "__comp": "df203c0f",
+    "__props": "255004ea"
+  },
+  "/zh/docs/tags/questions-30f": {
+    "__comp": "df203c0f",
+    "__props": "ef7f5010"
+  },
+  "/zh/docs/tags/quick-start-e28": {
+    "__comp": "df203c0f",
+    "__props": "277b06db"
+  },
+  "/zh/docs/tags/receive-437": {
+    "__comp": "df203c0f",
+    "__props": "0673b770"
+  },
+  "/zh/docs/tags/resources-de5": {
+    "__comp": "df203c0f",
+    "__props": "bc11fac3"
+  },
+  "/zh/docs/tags/rewards-695": {
+    "__comp": "df203c0f",
+    "__props": "465c5097"
+  },
+  "/zh/docs/tags/security-d5f": {
+    "__comp": "df203c0f",
+    "__props": "7b5170ac"
+  },
+  "/zh/docs/tags/selection-a2d": {
+    "__comp": "df203c0f",
+    "__props": "3af9a92a"
+  },
+  "/zh/docs/tags/send-172": {
+    "__comp": "df203c0f",
+    "__props": "bbf2748d"
+  },
+  "/zh/docs/tags/setup-5b5": {
+    "__comp": "df203c0f",
+    "__props": "927999ca"
+  },
+  "/zh/docs/tags/shield-a36": {
+    "__comp": "df203c0f",
+    "__props": "4bc19d73"
+  },
+  "/zh/docs/tags/shielded-133": {
+    "__comp": "df203c0f",
+    "__props": "54f13cd3"
+  },
+  "/zh/docs/tags/social-b2c": {
+    "__comp": "df203c0f",
+    "__props": "f16b31df"
+  },
+  "/zh/docs/tags/staking-023": {
+    "__comp": "df203c0f",
+    "__props": "c8318806"
+  },
+  "/zh/docs/tags/standards-323": {
+    "__comp": "df203c0f",
+    "__props": "5210f73f"
+  },
+  "/zh/docs/tags/submit-d28": {
+    "__comp": "df203c0f",
+    "__props": "6da4b1e4"
+  },
+  "/zh/docs/tags/support-700": {
+    "__comp": "df203c0f",
+    "__props": "1f2212a7"
+  },
+  "/zh/docs/tags/technology-fc3": {
+    "__comp": "df203c0f",
+    "__props": "981dea98"
+  },
+  "/zh/docs/tags/tokens-b66": {
+    "__comp": "df203c0f",
+    "__props": "354d0904"
+  },
+  "/zh/docs/tags/tools-bc7": {
+    "__comp": "df203c0f",
+    "__props": "027d36ef"
+  },
+  "/zh/docs/tags/trading-f64": {
+    "__comp": "df203c0f",
+    "__props": "2dc1ccbb"
+  },
+  "/zh/docs/tags/transaction-677": {
+    "__comp": "df203c0f",
+    "__props": "1831c026"
+  },
+  "/zh/docs/tags/transactions-e03": {
+    "__comp": "df203c0f",
+    "__props": "eb42b4d7"
+  },
+  "/zh/docs/tags/transfer-378": {
+    "__comp": "df203c0f",
+    "__props": "1409a0d2"
+  },
+  "/zh/docs/tags/transparent-89b": {
+    "__comp": "df203c0f",
+    "__props": "a5fa5bdd"
+  },
+  "/zh/docs/tags/tutorial-092": {
+    "__comp": "df203c0f",
+    "__props": "089c0723"
+  },
+  "/zh/docs/tags/unshield-423": {
+    "__comp": "df203c0f",
+    "__props": "dc4e9629"
+  },
+  "/zh/docs/tags/validators-ed2": {
+    "__comp": "df203c0f",
+    "__props": "e28091cb"
+  },
+  "/zh/docs/tags/voting-7ec": {
+    "__comp": "df203c0f",
+    "__props": "d19a6126"
+  },
+  "/zh/docs/tags/wallet-0c3": {
+    "__comp": "df203c0f",
+    "__props": "bacc6adb"
+  },
+  "/zh/docs/tags/withdraw-ef2": {
+    "__comp": "df203c0f",
+    "__props": "d2be7648"
+  },
+  "/zh/docs/tags/zk-snarks-ff5": {
+    "__comp": "df203c0f",
+    "__props": "e3fed4df"
+  },
+  "/zh/docs-48b": {
+    "__comp": "a94703ab"
+  },
+  "/zh/docs/concepts/governance-basics-234": {
+    "__comp": "17896441",
+    "content": "5296a69b"
+  },
+  "/zh/docs/concepts/masp-explained-a20": {
+    "__comp": "17896441",
+    "content": "6f7dd650"
+  },
+  "/zh/docs/concepts/pgf-system-cfd": {
+    "__comp": "17896441",
+    "content": "eddda3bc"
+  },
+  "/zh/docs/concepts/privacy-best-practices-ece": {
+    "__comp": "17896441",
+    "content": "608b434e"
+  },
+  "/zh/docs/concepts/transaction-fees-77f": {
+    "__comp": "17896441",
+    "content": "0c967ad2"
+  },
+  "/zh/docs/concepts/zk-snarks-eli5-cd2": {
+    "__comp": "17896441",
+    "content": "f9de185e"
+  },
+  "/zh/docs/contributing/blog-submissions-a97": {
+    "__comp": "17896441",
+    "content": "e8f23f13"
+  },
+  "/zh/docs/contributing/bounties-d45": {
+    "__comp": "17896441",
+    "content": "1c4fec25"
+  },
+  "/zh/docs/contributing/content-guidelines-e8c": {
+    "__comp": "17896441",
+    "content": "0ac304a8"
+  },
+  "/zh/docs/contributing/how-to-contribute-a9f": {
+    "__comp": "17896441",
+    "content": "4beba2b4"
+  },
+  "/zh/docs/getting-started/first-steps-ca9": {
+    "__comp": "17896441",
+    "content": "a39aaf1d"
+  },
+  "/zh/docs/getting-started/quick-start-guide-c5b": {
+    "__comp": "17896441",
+    "content": "f5298001"
+  },
+  "/zh/docs/getting-started/shielded-vs-transparent-d79": {
+    "__comp": "17896441",
+    "content": "702f5052"
+  },
+  "/zh/docs/getting-started/what-is-namada-52b": {
+    "__comp": "17896441",
+    "content": "ce38f190"
+  },
+  "/zh/docs/getting-started/why-privacy-matters-a54": {
+    "__comp": "17896441",
+    "content": "69d1ab43"
+  },
+  "/zh/docs/guides/governance/apply-for-pgf-98b": {
+    "__comp": "17896441",
+    "content": "dddac7c3"
+  },
+  "/zh/docs/guides/governance/create-proposal-015": {
+    "__comp": "17896441",
+    "content": "6702822a"
+  },
+  "/zh/docs/guides/governance/vote-on-proposals-a9c": {
+    "__comp": "17896441",
+    "content": "42fcfaca"
+  },
+  "/zh/docs/guides/staking/choose-validator-845": {
+    "__comp": "17896441",
+    "content": "07997f91"
+  },
+  "/zh/docs/guides/staking/claim-rewards-ac4": {
+    "__comp": "17896441",
+    "content": "b8884251"
+  },
+  "/zh/docs/guides/staking/how-to-stake-eb0": {
+    "__comp": "17896441",
+    "content": "6e6f239b"
+  },
+  "/zh/docs/guides/staking/understanding-staking-ba6": {
+    "__comp": "17896441",
+    "content": "2ad293a5"
+  },
+  "/zh/docs/guides/transactions/buy-nam-9b8": {
+    "__comp": "17896441",
+    "content": "54d1fb6c"
+  },
+  "/zh/docs/guides/transactions/ibc-transfers-fbf": {
+    "__comp": "17896441",
+    "content": "5ce94fce"
+  },
+  "/zh/docs/guides/transactions/send-shielded-transaction-b29": {
+    "__comp": "17896441",
+    "content": "5e93c7e4"
+  },
+  "/zh/docs/guides/transactions/send-to-wallet-dd0": {
+    "__comp": "17896441",
+    "content": "3abc533e"
+  },
+  "/zh/docs/guides/transactions/shield-assets-452": {
+    "__comp": "17896441",
+    "content": "8ff43a99"
+  },
+  "/zh/docs/guides/transactions/unshield-assets-06b": {
+    "__comp": "17896441",
+    "content": "495d0c60"
+  },
+  "/zh/docs/guides/wallets/cli-wallet-intro-7dc": {
+    "__comp": "17896441",
+    "content": "2df8ba6f"
+  },
+  "/zh/docs/guides/wallets/install-namada-extension-5e0": {
+    "__comp": "17896441",
+    "content": "3e308cd2"
+  },
+  "/zh/docs/guides/wallets/setup-keplr-ca4": {
+    "__comp": "17896441",
+    "content": "717c90c1"
+  },
+  "/zh/docs/guides/wallets/wallet-comparison-7ce": {
+    "__comp": "17896441",
+    "content": "478dafb4"
+  },
+  "/zh/docs/resources/block-explorers-e69": {
+    "__comp": "17896441",
+    "content": "67f78954"
+  },
+  "/zh/docs/resources/community-links-6b2": {
+    "__comp": "17896441",
+    "content": "8e57a365"
+  },
+  "/zh/docs/resources/ecosystem-tools-f94": {
+    "__comp": "17896441",
+    "content": "03e845b7"
+  },
+  "/zh/docs/resources/faq-305": {
+    "__comp": "17896441",
+    "content": "b66a831f"
+  },
+  "/zh/docs/resources/glossary-4e0": {
+    "__comp": "17896441",
+    "content": "6e952969"
+  },
+  "/zh/docs/resources/where-to-buy-07b": {
+    "__comp": "17896441",
+    "content": "bfdae946"
+  },
+  "/zh/-a79": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

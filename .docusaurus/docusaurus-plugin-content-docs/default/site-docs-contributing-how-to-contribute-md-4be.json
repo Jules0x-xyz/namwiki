@@ -1,0 +1,31 @@
+{
+  "id": "contributing/how-to-contribute",
+  "title": "How to Contribute",
+  "description": "Complete guide to contributing to NamWiki",
+  "source": "@site/docs/contributing/how-to-contribute.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/how-to-contribute",
+  "permalink": "/zh/docs/contributing/how-to-contribute",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/contributing/how-to-contribute.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765969432000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "How to Contribute",
+    "description": "Complete guide to contributing to NamWiki",
+    "sidebar_position": 1
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Community Links",
+    "permalink": "/zh/docs/resources/community-links"
+  },
+  "next": {
+    "title": "Content Guidelines",
+    "permalink": "/zh/docs/contributing/content-guidelines"
+  }
+}

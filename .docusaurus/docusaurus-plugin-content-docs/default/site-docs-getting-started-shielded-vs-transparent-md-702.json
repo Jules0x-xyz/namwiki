@@ -1,0 +1,64 @@
+{
+  "id": "getting-started/shielded-vs-transparent",
+  "title": "Shielded vs Transparent",
+  "description": "Understanding the difference between shielded and transparent transactions in Namada",
+  "source": "@site/docs/getting-started/shielded-vs-transparent.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/shielded-vs-transparent",
+  "permalink": "/zh/docs/getting-started/shielded-vs-transparent",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/getting-started/shielded-vs-transparent.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "privacy",
+      "permalink": "/zh/docs/tags/privacy"
+    },
+    {
+      "inline": true,
+      "label": "shielded",
+      "permalink": "/zh/docs/tags/shielded"
+    },
+    {
+      "inline": true,
+      "label": "transparent",
+      "permalink": "/zh/docs/tags/transparent"
+    },
+    {
+      "inline": true,
+      "label": "basics",
+      "permalink": "/zh/docs/tags/basics"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Shielded vs Transparent",
+    "description": "Understanding the difference between shielded and transparent transactions in Namada",
+    "sidebar_position": 5,
+    "tags": [
+      "privacy",
+      "shielded",
+      "transparent",
+      "basics"
+    ],
+    "keywords": [
+      "shielded transactions",
+      "transparent transactions",
+      "privacy",
+      "masp"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Quick Start Guide",
+    "permalink": "/zh/docs/getting-started/quick-start-guide"
+  },
+  "next": {
+    "title": "Install Namada Extension",
+    "permalink": "/zh/docs/guides/wallets/install-namada-extension"
+  }
+}

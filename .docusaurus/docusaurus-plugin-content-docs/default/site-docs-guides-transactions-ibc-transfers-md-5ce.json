@@ -1,0 +1,64 @@
+{
+  "id": "guides/transactions/ibc-transfers",
+  "title": "IBC Transfers",
+  "description": "Transfer assets between Namada and other Cosmos chains using IBC",
+  "source": "@site/docs/guides/transactions/ibc-transfers.md",
+  "sourceDirName": "guides/transactions",
+  "slug": "/guides/transactions/ibc-transfers",
+  "permalink": "/zh/docs/guides/transactions/ibc-transfers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/transactions/ibc-transfers.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "ibc",
+      "permalink": "/zh/docs/tags/ibc"
+    },
+    {
+      "inline": true,
+      "label": "transfer",
+      "permalink": "/zh/docs/tags/transfer"
+    },
+    {
+      "inline": true,
+      "label": "cosmos",
+      "permalink": "/zh/docs/tags/cosmos"
+    },
+    {
+      "inline": true,
+      "label": "interchain",
+      "permalink": "/zh/docs/tags/interchain"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "IBC Transfers",
+    "description": "Transfer assets between Namada and other Cosmos chains using IBC",
+    "sidebar_position": 3,
+    "tags": [
+      "ibc",
+      "transfer",
+      "cosmos",
+      "interchain"
+    ],
+    "keywords": [
+      "ibc transfer",
+      "cosmos ibc",
+      "namada ibc",
+      "interchain transfer"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Send to Wallet",
+    "permalink": "/zh/docs/guides/transactions/send-to-wallet"
+  },
+  "next": {
+    "title": "Shield Assets",
+    "permalink": "/zh/docs/guides/transactions/shield-assets"
+  }
+}

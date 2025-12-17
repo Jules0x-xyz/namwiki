@@ -1,0 +1,31 @@
+{
+  "id": "resources/glossary",
+  "title": "Glossary",
+  "description": "Key terms and definitions for Namada blockchain",
+  "source": "@site/docs/resources/glossary.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/glossary",
+  "permalink": "/zh/docs/resources/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/resources/glossary.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765971113000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Glossary",
+    "description": "Key terms and definitions for Namada blockchain",
+    "sidebar_position": 1
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Transaction Fees",
+    "permalink": "/zh/docs/concepts/transaction-fees"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/zh/docs/resources/faq"
+  }
+}

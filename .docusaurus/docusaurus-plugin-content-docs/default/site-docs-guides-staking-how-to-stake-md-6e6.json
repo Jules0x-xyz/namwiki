@@ -1,0 +1,64 @@
+{
+  "id": "guides/staking/how-to-stake",
+  "title": "How to Stake",
+  "description": "Step-by-step guide to staking your NAM tokens",
+  "source": "@site/docs/guides/staking/how-to-stake.md",
+  "sourceDirName": "guides/staking",
+  "slug": "/guides/staking/how-to-stake",
+  "permalink": "/zh/docs/guides/staking/how-to-stake",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/staking/how-to-stake.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "staking",
+      "permalink": "/zh/docs/tags/staking"
+    },
+    {
+      "inline": true,
+      "label": "delegate",
+      "permalink": "/zh/docs/tags/delegate"
+    },
+    {
+      "inline": true,
+      "label": "tutorial",
+      "permalink": "/zh/docs/tags/tutorial"
+    },
+    {
+      "inline": true,
+      "label": "rewards",
+      "permalink": "/zh/docs/tags/rewards"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "How to Stake",
+    "description": "Step-by-step guide to staking your NAM tokens",
+    "sidebar_position": 2,
+    "tags": [
+      "staking",
+      "delegate",
+      "tutorial",
+      "rewards"
+    ],
+    "keywords": [
+      "how to stake nam",
+      "delegate namada",
+      "staking tutorial",
+      "earn rewards"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Understanding Staking",
+    "permalink": "/zh/docs/guides/staking/understanding-staking"
+  },
+  "next": {
+    "title": "Choose a Validator",
+    "permalink": "/zh/docs/guides/staking/choose-validator"
+  }
+}

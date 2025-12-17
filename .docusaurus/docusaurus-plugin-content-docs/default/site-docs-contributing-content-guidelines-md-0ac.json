@@ -1,0 +1,64 @@
+{
+  "id": "contributing/content-guidelines",
+  "title": "Content Guidelines",
+  "description": "Standards and guidelines for NamWiki content",
+  "source": "@site/docs/contributing/content-guidelines.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/content-guidelines",
+  "permalink": "/zh/docs/contributing/content-guidelines",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/contributing/content-guidelines.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "guidelines",
+      "permalink": "/zh/docs/tags/guidelines"
+    },
+    {
+      "inline": true,
+      "label": "standards",
+      "permalink": "/zh/docs/tags/standards"
+    },
+    {
+      "inline": true,
+      "label": "quality",
+      "permalink": "/zh/docs/tags/quality"
+    },
+    {
+      "inline": true,
+      "label": "content",
+      "permalink": "/zh/docs/tags/content"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Content Guidelines",
+    "description": "Standards and guidelines for NamWiki content",
+    "sidebar_position": 2,
+    "tags": [
+      "guidelines",
+      "standards",
+      "quality",
+      "content"
+    ],
+    "keywords": [
+      "content guidelines",
+      "writing standards",
+      "quality",
+      "style guide"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "How to Contribute",
+    "permalink": "/zh/docs/contributing/how-to-contribute"
+  },
+  "next": {
+    "title": "Blog Submissions",
+    "permalink": "/zh/docs/contributing/blog-submissions"
+  }
+}

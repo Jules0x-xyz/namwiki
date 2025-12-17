@@ -1,0 +1,64 @@
+{
+  "id": "concepts/zk-snarks-eli5",
+  "title": "zk-SNARKs ELI5",
+  "description": "Understanding zero-knowledge proofs in simple terms",
+  "source": "@site/docs/concepts/zk-snarks-eli5.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/zk-snarks-eli5",
+  "permalink": "/zh/docs/concepts/zk-snarks-eli5",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/concepts/zk-snarks-eli5.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "zk-snarks",
+      "permalink": "/zh/docs/tags/zk-snarks"
+    },
+    {
+      "inline": true,
+      "label": "cryptography",
+      "permalink": "/zh/docs/tags/cryptography"
+    },
+    {
+      "inline": true,
+      "label": "privacy",
+      "permalink": "/zh/docs/tags/privacy"
+    },
+    {
+      "inline": true,
+      "label": "concepts",
+      "permalink": "/zh/docs/tags/concepts"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "zk-SNARKs ELI5",
+    "description": "Understanding zero-knowledge proofs in simple terms",
+    "sidebar_position": 2,
+    "tags": [
+      "zk-snarks",
+      "cryptography",
+      "privacy",
+      "concepts"
+    ],
+    "keywords": [
+      "zk-snarks explained",
+      "zero knowledge proofs",
+      "cryptography basics",
+      "eli5"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "MASP Explained",
+    "permalink": "/zh/docs/concepts/masp-explained"
+  },
+  "next": {
+    "title": "PGF System",
+    "permalink": "/zh/docs/concepts/pgf-system"
+  }
+}

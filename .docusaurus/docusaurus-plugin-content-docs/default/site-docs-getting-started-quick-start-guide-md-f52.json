@@ -1,0 +1,58 @@
+{
+  "id": "getting-started/quick-start-guide",
+  "title": "Quick Start Guide",
+  "description": "Get up and running with Namada in 10 minutes",
+  "source": "@site/docs/getting-started/quick-start-guide.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start-guide",
+  "permalink": "/zh/docs/getting-started/quick-start-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/getting-started/quick-start-guide.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "quick-start",
+      "permalink": "/zh/docs/tags/quick-start"
+    },
+    {
+      "inline": true,
+      "label": "tutorial",
+      "permalink": "/zh/docs/tags/tutorial"
+    },
+    {
+      "inline": true,
+      "label": "beginner",
+      "permalink": "/zh/docs/tags/beginner"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966196000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Quick Start Guide",
+    "description": "Get up and running with Namada in 10 minutes",
+    "sidebar_position": 4,
+    "tags": [
+      "quick-start",
+      "tutorial",
+      "beginner"
+    ],
+    "keywords": [
+      "namada quickstart",
+      "tutorial",
+      "beginner guide",
+      "fast setup"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "First Steps",
+    "permalink": "/zh/docs/getting-started/first-steps"
+  },
+  "next": {
+    "title": "Shielded vs Transparent",
+    "permalink": "/zh/docs/getting-started/shielded-vs-transparent"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknamwiki=globalThis.webpackChunknamwiki||[]).push([[5333],{8287(a){a.exports=JSON.parse('{"tag":{"label":"faq","permalink":"/docs/tags/faq","allTagsPath":"/docs/tags","count":1,"items":[{"id":"resources/faq","title":"FAQ","description":"Frequently asked questions about Namada","permalink":"/docs/resources/faq"}],"unlisted":false}}')}}]);

@@ -1,0 +1,64 @@
+{
+  "id": "guides/transactions/shield-assets",
+  "title": "Shield Assets",
+  "description": "How to shield your assets for privacy using Namada's MASP",
+  "source": "@site/docs/guides/transactions/shield-assets.md",
+  "sourceDirName": "guides/transactions",
+  "slug": "/guides/transactions/shield-assets",
+  "permalink": "/zh/docs/guides/transactions/shield-assets",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/transactions/shield-assets.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "shield",
+      "permalink": "/zh/docs/tags/shield"
+    },
+    {
+      "inline": true,
+      "label": "privacy",
+      "permalink": "/zh/docs/tags/privacy"
+    },
+    {
+      "inline": true,
+      "label": "masp",
+      "permalink": "/zh/docs/tags/masp"
+    },
+    {
+      "inline": true,
+      "label": "tutorial",
+      "permalink": "/zh/docs/tags/tutorial"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Shield Assets",
+    "description": "How to shield your assets for privacy using Namada's MASP",
+    "sidebar_position": 4,
+    "tags": [
+      "shield",
+      "privacy",
+      "masp",
+      "tutorial"
+    ],
+    "keywords": [
+      "shield assets",
+      "shielded pool",
+      "masp",
+      "privacy transfer"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "IBC Transfers",
+    "permalink": "/zh/docs/guides/transactions/ibc-transfers"
+  },
+  "next": {
+    "title": "Unshield Assets",
+    "permalink": "/zh/docs/guides/transactions/unshield-assets"
+  }
+}

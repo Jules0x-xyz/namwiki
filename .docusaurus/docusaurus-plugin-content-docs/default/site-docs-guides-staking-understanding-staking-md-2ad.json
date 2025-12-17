@@ -1,0 +1,65 @@
+{
+  "id": "guides/staking/understanding-staking",
+  "title": "Understanding Staking",
+  "description": "Learn how staking works on Namada and how you can earn rewards",
+  "source": "@site/docs/guides/staking/understanding-staking.md",
+  "sourceDirName": "guides/staking",
+  "slug": "/guides/staking/understanding-staking",
+  "permalink": "/zh/docs/guides/staking/understanding-staking",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/staking/understanding-staking.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "staking",
+      "permalink": "/zh/docs/tags/staking"
+    },
+    {
+      "inline": true,
+      "label": "rewards",
+      "permalink": "/zh/docs/tags/rewards"
+    },
+    {
+      "inline": true,
+      "label": "delegation",
+      "permalink": "/zh/docs/tags/delegation"
+    },
+    {
+      "inline": true,
+      "label": "pos",
+      "permalink": "/zh/docs/tags/pos"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Understanding Staking",
+    "description": "Learn how staking works on Namada and how you can earn rewards",
+    "sidebar_position": 1,
+    "tags": [
+      "staking",
+      "rewards",
+      "delegation",
+      "pos"
+    ],
+    "keywords": [
+      "namada staking",
+      "proof of stake",
+      "delegation",
+      "validators",
+      "rewards"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Send Shielded Transaction",
+    "permalink": "/zh/docs/guides/transactions/send-shielded-transaction"
+  },
+  "next": {
+    "title": "How to Stake",
+    "permalink": "/zh/docs/guides/staking/how-to-stake"
+  }
+}

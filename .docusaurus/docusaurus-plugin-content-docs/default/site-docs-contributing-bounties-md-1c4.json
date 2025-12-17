@@ -1,0 +1,60 @@
+{
+  "id": "contributing/bounties",
+  "title": "Bounties",
+  "description": "Earn rewards for contributing to NamWiki",
+  "source": "@site/docs/contributing/bounties.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/bounties",
+  "permalink": "/zh/docs/contributing/bounties",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/contributing/bounties.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "bounties",
+      "permalink": "/zh/docs/tags/bounties"
+    },
+    {
+      "inline": true,
+      "label": "rewards",
+      "permalink": "/zh/docs/tags/rewards"
+    },
+    {
+      "inline": true,
+      "label": "contribution",
+      "permalink": "/zh/docs/tags/contribution"
+    },
+    {
+      "inline": true,
+      "label": "earn",
+      "permalink": "/zh/docs/tags/earn"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Bounties",
+    "description": "Earn rewards for contributing to NamWiki",
+    "sidebar_position": 3,
+    "tags": [
+      "bounties",
+      "rewards",
+      "contribution",
+      "earn"
+    ],
+    "keywords": [
+      "bounties",
+      "rewards",
+      "earn nam",
+      "contributor rewards"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Blog Submissions",
+    "permalink": "/zh/docs/contributing/blog-submissions"
+  }
+}

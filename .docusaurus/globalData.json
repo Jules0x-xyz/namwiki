@@ -1,0 +1,218 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/zh/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/zh/docs",
+          "mainDocId": "getting-started/what-is-namada",
+          "docs": [
+            {
+              "id": "concepts/governance-basics",
+              "path": "/zh/docs/concepts/governance-basics",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "concepts/masp-explained",
+              "path": "/zh/docs/concepts/masp-explained",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "concepts/pgf-system",
+              "path": "/zh/docs/concepts/pgf-system",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "concepts/privacy-best-practices",
+              "path": "/zh/docs/concepts/privacy-best-practices",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "concepts/transaction-fees",
+              "path": "/zh/docs/concepts/transaction-fees",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "concepts/zk-snarks-eli5",
+              "path": "/zh/docs/concepts/zk-snarks-eli5",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "contributing/blog-submissions",
+              "path": "/zh/docs/contributing/blog-submissions",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "contributing/bounties",
+              "path": "/zh/docs/contributing/bounties",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "contributing/content-guidelines",
+              "path": "/zh/docs/contributing/content-guidelines",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "contributing/how-to-contribute",
+              "path": "/zh/docs/contributing/how-to-contribute",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/first-steps",
+              "path": "/zh/docs/getting-started/first-steps",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/quick-start-guide",
+              "path": "/zh/docs/getting-started/quick-start-guide",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/shielded-vs-transparent",
+              "path": "/zh/docs/getting-started/shielded-vs-transparent",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/what-is-namada",
+              "path": "/zh/docs/getting-started/what-is-namada",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/why-privacy-matters",
+              "path": "/zh/docs/getting-started/why-privacy-matters",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/governance/apply-for-pgf",
+              "path": "/zh/docs/guides/governance/apply-for-pgf",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/governance/create-proposal",
+              "path": "/zh/docs/guides/governance/create-proposal",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/governance/vote-on-proposals",
+              "path": "/zh/docs/guides/governance/vote-on-proposals",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/staking/choose-validator",
+              "path": "/zh/docs/guides/staking/choose-validator",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/staking/claim-rewards",
+              "path": "/zh/docs/guides/staking/claim-rewards",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/staking/how-to-stake",
+              "path": "/zh/docs/guides/staking/how-to-stake",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/staking/understanding-staking",
+              "path": "/zh/docs/guides/staking/understanding-staking",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/transactions/buy-nam",
+              "path": "/zh/docs/guides/transactions/buy-nam",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/transactions/ibc-transfers",
+              "path": "/zh/docs/guides/transactions/ibc-transfers",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/transactions/send-shielded-transaction",
+              "path": "/zh/docs/guides/transactions/send-shielded-transaction",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/transactions/send-to-wallet",
+              "path": "/zh/docs/guides/transactions/send-to-wallet",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/transactions/shield-assets",
+              "path": "/zh/docs/guides/transactions/shield-assets",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/transactions/unshield-assets",
+              "path": "/zh/docs/guides/transactions/unshield-assets",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/wallets/cli-wallet-intro",
+              "path": "/zh/docs/guides/wallets/cli-wallet-intro",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/wallets/install-namada-extension",
+              "path": "/zh/docs/guides/wallets/install-namada-extension",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/wallets/setup-keplr",
+              "path": "/zh/docs/guides/wallets/setup-keplr",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "guides/wallets/wallet-comparison",
+              "path": "/zh/docs/guides/wallets/wallet-comparison",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "resources/block-explorers",
+              "path": "/zh/docs/resources/block-explorers",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "resources/community-links",
+              "path": "/zh/docs/resources/community-links",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "resources/ecosystem-tools",
+              "path": "/zh/docs/resources/ecosystem-tools",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "resources/faq",
+              "path": "/zh/docs/resources/faq",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "resources/glossary",
+              "path": "/zh/docs/resources/glossary",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "resources/where-to-buy",
+              "path": "/zh/docs/resources/where-to-buy",
+              "sidebar": "mainSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "mainSidebar": {
+              "link": {
+                "path": "/zh/docs/getting-started/what-is-namada",
+                "label": "Getting Started"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

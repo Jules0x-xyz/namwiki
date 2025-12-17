@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknamwiki=globalThis.webpackChunknamwiki||[]).push([[9828],{5652(a){a.exports=JSON.parse('{"tags":[{"label":"announcement","permalink":"/zh/blog/tags/announcement","count":1},{"label":"namwiki","permalink":"/zh/blog/tags/namwiki","count":1}]}')}}]);

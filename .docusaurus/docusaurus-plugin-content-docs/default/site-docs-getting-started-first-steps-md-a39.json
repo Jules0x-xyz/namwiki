@@ -1,0 +1,64 @@
+{
+  "id": "getting-started/first-steps",
+  "title": "First Steps",
+  "description": "Your first steps into the Namada ecosystem",
+  "source": "@site/docs/getting-started/first-steps.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/first-steps",
+  "permalink": "/zh/docs/getting-started/first-steps",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/getting-started/first-steps.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "getting-started",
+      "permalink": "/zh/docs/tags/getting-started"
+    },
+    {
+      "inline": true,
+      "label": "beginner",
+      "permalink": "/zh/docs/tags/beginner"
+    },
+    {
+      "inline": true,
+      "label": "wallet",
+      "permalink": "/zh/docs/tags/wallet"
+    },
+    {
+      "inline": true,
+      "label": "setup",
+      "permalink": "/zh/docs/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "First Steps",
+    "description": "Your first steps into the Namada ecosystem",
+    "sidebar_position": 3,
+    "tags": [
+      "getting-started",
+      "beginner",
+      "wallet",
+      "setup"
+    ],
+    "keywords": [
+      "namada setup",
+      "first steps",
+      "getting started",
+      "beginner guide"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Why Privacy Matters",
+    "permalink": "/zh/docs/getting-started/why-privacy-matters"
+  },
+  "next": {
+    "title": "Quick Start Guide",
+    "permalink": "/zh/docs/getting-started/quick-start-guide"
+  }
+}

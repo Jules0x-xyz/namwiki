@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknamwiki=globalThis.webpackChunknamwiki||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Recent Posts","items":[{"title":"Welcome to NamWiki","permalink":"/fr/blog/welcome","unlisted":false,"date":"2024-12-17T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,64 @@
+{
+  "id": "guides/staking/claim-rewards",
+  "title": "Claim Rewards",
+  "description": "How to claim your staking rewards on Namada",
+  "source": "@site/docs/guides/staking/claim-rewards.md",
+  "sourceDirName": "guides/staking",
+  "slug": "/guides/staking/claim-rewards",
+  "permalink": "/zh/docs/guides/staking/claim-rewards",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/staking/claim-rewards.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "staking",
+      "permalink": "/zh/docs/tags/staking"
+    },
+    {
+      "inline": true,
+      "label": "rewards",
+      "permalink": "/zh/docs/tags/rewards"
+    },
+    {
+      "inline": true,
+      "label": "claim",
+      "permalink": "/zh/docs/tags/claim"
+    },
+    {
+      "inline": true,
+      "label": "withdraw",
+      "permalink": "/zh/docs/tags/withdraw"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Claim Rewards",
+    "description": "How to claim your staking rewards on Namada",
+    "sidebar_position": 4,
+    "tags": [
+      "staking",
+      "rewards",
+      "claim",
+      "withdraw"
+    ],
+    "keywords": [
+      "claim staking rewards",
+      "withdraw rewards",
+      "namada rewards",
+      "staking earnings"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Choose a Validator",
+    "permalink": "/zh/docs/guides/staking/choose-validator"
+  },
+  "next": {
+    "title": "Vote on Proposals",
+    "permalink": "/zh/docs/guides/governance/vote-on-proposals"
+  }
+}

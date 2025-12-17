@@ -1,0 +1,64 @@
+{
+  "id": "guides/staking/choose-validator",
+  "title": "Choose a Validator",
+  "description": "How to select the best validator for your staking needs",
+  "source": "@site/docs/guides/staking/choose-validator.md",
+  "sourceDirName": "guides/staking",
+  "slug": "/guides/staking/choose-validator",
+  "permalink": "/zh/docs/guides/staking/choose-validator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/staking/choose-validator.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "staking",
+      "permalink": "/zh/docs/tags/staking"
+    },
+    {
+      "inline": true,
+      "label": "validators",
+      "permalink": "/zh/docs/tags/validators"
+    },
+    {
+      "inline": true,
+      "label": "selection",
+      "permalink": "/zh/docs/tags/selection"
+    },
+    {
+      "inline": true,
+      "label": "criteria",
+      "permalink": "/zh/docs/tags/criteria"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966196000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Choose a Validator",
+    "description": "How to select the best validator for your staking needs",
+    "sidebar_position": 3,
+    "tags": [
+      "staking",
+      "validators",
+      "selection",
+      "criteria"
+    ],
+    "keywords": [
+      "choose validator",
+      "best validators",
+      "validator selection",
+      "staking criteria"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "How to Stake",
+    "permalink": "/zh/docs/guides/staking/how-to-stake"
+  },
+  "next": {
+    "title": "Claim Rewards",
+    "permalink": "/zh/docs/guides/staking/claim-rewards"
+  }
+}

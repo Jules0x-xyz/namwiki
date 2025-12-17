@@ -1,0 +1,64 @@
+{
+  "id": "guides/wallets/cli-wallet-intro",
+  "title": "CLI Wallet Introduction",
+  "description": "Learn to use the Namada command-line interface wallet for advanced operations",
+  "source": "@site/docs/guides/wallets/cli-wallet-intro.md",
+  "sourceDirName": "guides/wallets",
+  "slug": "/guides/wallets/cli-wallet-intro",
+  "permalink": "/zh/docs/guides/wallets/cli-wallet-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/wallets/cli-wallet-intro.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "wallet",
+      "permalink": "/zh/docs/tags/wallet"
+    },
+    {
+      "inline": true,
+      "label": "cli",
+      "permalink": "/zh/docs/tags/cli"
+    },
+    {
+      "inline": true,
+      "label": "advanced",
+      "permalink": "/zh/docs/tags/advanced"
+    },
+    {
+      "inline": true,
+      "label": "command-line",
+      "permalink": "/zh/docs/tags/command-line"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "CLI Wallet Introduction",
+    "description": "Learn to use the Namada command-line interface wallet for advanced operations",
+    "sidebar_position": 3,
+    "tags": [
+      "wallet",
+      "cli",
+      "advanced",
+      "command-line"
+    ],
+    "keywords": [
+      "namada cli",
+      "command line wallet",
+      "namadac",
+      "namadaw"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Setup Keplr for Namada",
+    "permalink": "/zh/docs/guides/wallets/setup-keplr"
+  },
+  "next": {
+    "title": "Wallet Comparison",
+    "permalink": "/zh/docs/guides/wallets/wallet-comparison"
+  }
+}

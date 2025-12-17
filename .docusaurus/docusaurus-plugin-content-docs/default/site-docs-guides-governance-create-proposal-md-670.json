@@ -1,0 +1,64 @@
+{
+  "id": "guides/governance/create-proposal",
+  "title": "Create a Proposal",
+  "description": "How to create and submit governance proposals on Namada",
+  "source": "@site/docs/guides/governance/create-proposal.md",
+  "sourceDirName": "guides/governance",
+  "slug": "/guides/governance/create-proposal",
+  "permalink": "/zh/docs/guides/governance/create-proposal",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/governance/create-proposal.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "governance",
+      "permalink": "/zh/docs/tags/governance"
+    },
+    {
+      "inline": true,
+      "label": "proposals",
+      "permalink": "/zh/docs/tags/proposals"
+    },
+    {
+      "inline": true,
+      "label": "submit",
+      "permalink": "/zh/docs/tags/submit"
+    },
+    {
+      "inline": true,
+      "label": "create",
+      "permalink": "/zh/docs/tags/create"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Create a Proposal",
+    "description": "How to create and submit governance proposals on Namada",
+    "sidebar_position": 2,
+    "tags": [
+      "governance",
+      "proposals",
+      "submit",
+      "create"
+    ],
+    "keywords": [
+      "create proposal",
+      "submit proposal",
+      "governance proposal",
+      "namada proposal"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Vote on Proposals",
+    "permalink": "/zh/docs/guides/governance/vote-on-proposals"
+  },
+  "next": {
+    "title": "Apply for PGF Funding",
+    "permalink": "/zh/docs/guides/governance/apply-for-pgf"
+  }
+}

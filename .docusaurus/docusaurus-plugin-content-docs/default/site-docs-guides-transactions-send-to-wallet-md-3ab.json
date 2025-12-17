@@ -1,0 +1,64 @@
+{
+  "id": "guides/transactions/send-to-wallet",
+  "title": "Send to Wallet",
+  "description": "How to send NAM and other assets to your Namada wallet",
+  "source": "@site/docs/guides/transactions/send-to-wallet.md",
+  "sourceDirName": "guides/transactions",
+  "slug": "/guides/transactions/send-to-wallet",
+  "permalink": "/zh/docs/guides/transactions/send-to-wallet",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/guides/transactions/send-to-wallet.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "transfer",
+      "permalink": "/zh/docs/tags/transfer"
+    },
+    {
+      "inline": true,
+      "label": "send",
+      "permalink": "/zh/docs/tags/send"
+    },
+    {
+      "inline": true,
+      "label": "wallet",
+      "permalink": "/zh/docs/tags/wallet"
+    },
+    {
+      "inline": true,
+      "label": "receive",
+      "permalink": "/zh/docs/tags/receive"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Send to Wallet",
+    "description": "How to send NAM and other assets to your Namada wallet",
+    "sidebar_position": 2,
+    "tags": [
+      "transfer",
+      "send",
+      "wallet",
+      "receive"
+    ],
+    "keywords": [
+      "send nam",
+      "transfer to wallet",
+      "receive nam",
+      "deposit"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Buy NAM",
+    "permalink": "/zh/docs/guides/transactions/buy-nam"
+  },
+  "next": {
+    "title": "IBC Transfers",
+    "permalink": "/zh/docs/guides/transactions/ibc-transfers"
+  }
+}

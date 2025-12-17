@@ -1,0 +1,58 @@
+{
+  "id": "getting-started/why-privacy-matters",
+  "title": "Why Privacy Matters",
+  "description": "Understanding why financial privacy is essential in the digital age",
+  "source": "@site/docs/getting-started/why-privacy-matters.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/why-privacy-matters",
+  "permalink": "/zh/docs/getting-started/why-privacy-matters",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Jules0x-xyz/namwiki/edit/main/docs/getting-started/why-privacy-matters.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "privacy",
+      "permalink": "/zh/docs/tags/privacy"
+    },
+    {
+      "inline": true,
+      "label": "security",
+      "permalink": "/zh/docs/tags/security"
+    },
+    {
+      "inline": true,
+      "label": "fundamentals",
+      "permalink": "/zh/docs/tags/fundamentals"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedBy": "NamWiki",
+  "lastUpdatedAt": 1765966015000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Why Privacy Matters",
+    "description": "Understanding why financial privacy is essential in the digital age",
+    "sidebar_position": 2,
+    "tags": [
+      "privacy",
+      "security",
+      "fundamentals"
+    ],
+    "keywords": [
+      "privacy",
+      "financial privacy",
+      "blockchain privacy",
+      "surveillance"
+    ]
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "What is Namada?",
+    "permalink": "/zh/docs/getting-started/what-is-namada"
+  },
+  "next": {
+    "title": "First Steps",
+    "permalink": "/zh/docs/getting-started/first-steps"
+  }
+}
