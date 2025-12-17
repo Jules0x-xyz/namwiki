@@ -4,70 +4,76 @@ import styles from './videos.module.css';
 
 const channels = [
   {
-    name: 'Namada Official',
-    url: 'https://youtube.com/@namaboratory',
-    description: 'Official Namada tutorials and updates',
+    name: 'Namada',
+    url: 'https://www.youtube.com/@namada-net',
+    description: 'The official channel for Namada, the asset-agnostic privacy blockchain.',
   },
   {
-    name: 'NamWiki',
-    url: 'https://youtube.com/@namwiki',
-    description: 'Community tutorials and guides',
+    name: 'Anoma',
+    url: 'https://www.youtube.com/@anomanetwork',
+    description: 'Updates and deep dives from the team building Anoma and Namada.',
   },
 ];
 
 const videos = [
   {
-    title: 'What is Namada? Introduction to Privacy Blockchain',
-    channel: 'Namada Official',
-    url: 'https://www.youtube.com/watch?v=wLDlNGa4vug',
-    description: 'Learn the fundamentals of Namada and why privacy matters in blockchain.',
+    title: 'Namada: Asset-Agnostic Privacy for the Multichain',
+    channel: 'Namada',
+    url: 'https://www.youtube.com/watch?v=Yu8WgtbsUoc',
+    description: 'A comprehensive overview of Namada\'s mission to provide privacy for any asset across the multichain ecosystem.',
   },
   {
-    title: 'How to Set Up Namada Extension Wallet',
-    channel: 'NamWiki',
-    url: 'https://youtube.com/watch?v=example2',
-    description: 'Step-by-step guide to installing and configuring the Namada browser extension.',
+    title: 'Namada Mainnet Roadmap',
+    channel: 'Cosmos',
+    url: 'https://www.youtube.com/watch?v=RfU0xf1GxjY',
+    description: 'Adrian Brink explains the roadmap towards mainnet and what users can expect from the launch phases.',
   },
   {
-    title: 'Shielding Assets on Namada - Complete Guide',
-    channel: 'NamWiki',
-    url: 'https://youtube.com/watch?v=example3',
-    description: 'Learn how to shield your assets for maximum privacy protection.',
+    title: 'Evolution of the MASP Circuit',
+    channel: 'ZK HACK',
+    url: 'https://www.youtube.com/watch?v=td7Wm2CmvR4',
+    description: 'Technical deep dive into the Multi-Asset Shielded Pool (MASP) and how it enables a unified shielded set.',
   },
   {
-    title: 'Understanding MASP - Multi-Asset Shielded Pool',
-    channel: 'Namada Official',
-    url: 'https://youtube.com/watch?v=example4',
-    description: 'Deep dive into the technology powering Namada privacy features.',
+    title: 'Modular Privacy for the Interchain',
+    channel: 'Namada Community',
+    url: 'https://www.youtube.com/watch?v=l5V9kNv6xm4',
+    description: 'Park Feierbach discusses how Namada brings modular privacy to the Cosmos ecosystem and beyond.',
   },
   {
-    title: 'Staking NAM - Earn Rewards While Securing the Network',
-    channel: 'NamWiki',
-    url: 'https://youtube.com/watch?v=example5',
-    description: 'Complete tutorial on staking NAM tokens and choosing validators.',
+    title: 'Protocols & Ecosystems: Vitalik Buterin & Christopher Goes',
+    channel: 'De University of Ethereum',
+    url: 'https://www.youtube.com/watch?v=emkS4eMrwf8',
+    description: 'A campfire chat featuring Namada co-founder Christopher Goes and Vitalik Buterin discussing privacy and protocols.',
   },
   {
-    title: 'IBC Transfers with Namada',
-    channel: 'NamWiki',
-    url: 'https://youtube.com/watch?v=example6',
-    description: 'How to transfer assets between Namada and other Cosmos chains.',
+    title: 'Namada: Asset-Agnostic Interchain Privacy',
+    channel: 'ZK Summit',
+    url: 'https://www.youtube.com/watch?v=5K6YxmZPFkE',
+    description: 'Chris Goes presents the technical architecture of Namada at ZK8.',
   },
 ];
+
+// Helper to extract video ID for thumbnail
+const getThumbnailUrl = (url) => {
+  const videoId = url.split('v=')[1];
+  return `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
+};
 
 export default function Videos(): React.JSX.Element {
   return (
     <Layout
       title="Video Tutorials"
-      description="Learn Namada through video tutorials from the community">
+      description="Learn Namada through video tutorials and deep dives">
       <main className={styles.main}>
         <div className={styles.container}>
           <header className={styles.header}>
             <h1>Video Tutorials</h1>
-            <p>Learn Namada through video content from the community</p>
+            <p>Explore talks, guides, and technical deep dives about Namada.</p>
           </header>
 
           <section className={styles.section}>
-            <h2>Community Channels</h2>
+            <h2>Official & Community Channels</h2>
             <div className={styles.channelsGrid}>
               {channels.map((channel, idx) => (
                 <a key={idx} href={channel.url} className={styles.channelCard} target="_blank" rel="noopener noreferrer">
@@ -85,9 +91,17 @@ export default function Videos(): React.JSX.Element {
               {videos.map((video, idx) => (
                 <a key={idx} href={video.url} className={styles.videoCard} target="_blank" rel="noopener noreferrer">
                   <div className={styles.videoThumb}>
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
+                    {/* Updated to show real YouTube thumbnail */}
+                    <img 
+                      src={getThumbnailUrl(video.url)} 
+                      alt={video.title} 
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                    <div className={styles.playOverlay}>
+                      <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
                   </div>
                   <div className={styles.videoInfo}>
                     <h3>{video.title}</h3>
@@ -105,7 +119,7 @@ export default function Videos(): React.JSX.Element {
               Create educational content about Namada? Add your videos to this page by 
               editing the <code>src/pages/videos.tsx</code> file on GitHub.
             </p>
-            <a href="https://github.com/Jules0x-xyz/namwiki/edit/main/src/pages/videos.tsx" className={styles.editButton}>
+            <a href="https://github.com/anoma/namada-docs/edit/main/src/pages/videos.tsx" className={styles.editButton}>
               Add Your Video
             </a>
           </section>
