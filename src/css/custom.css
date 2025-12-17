@@ -112,16 +112,6 @@ body {
   background-clip: text;
 }
 
-.navbar__logo {
-  background: #FFFF00;
-  border-radius: 8px;
-  padding: 4px;
-}
-
-[data-theme='dark'] .navbar__logo {
-  background: #FFFF00;
-}
-
 .navbar__link {
   font-weight: 500;
   font-size: 0.9375rem;

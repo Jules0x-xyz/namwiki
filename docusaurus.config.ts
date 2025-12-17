@@ -5,7 +5,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'NamWiki',
   tagline: 'Learn Namada: Privacy-first blockchain education',
-  favicon: 'img/LogoWikiNam.png',
 
   future: {
     v4: true,
@@ -81,10 +80,6 @@ const config: Config = {
     },
     navbar: {
       title: 'NamWiki',
-      logo: {
-        alt: 'NamWiki Logo',
-        src: 'img/LogoWikiNam.png',
-      },
       hideOnScroll: false,
       items: [
         {
