@@ -1,249 +1,233 @@
 ---
 title: Glossary
-description: Definitions of common terms used in the Namada ecosystem
+description: Key terms and definitions for Namada
 sidebar_position: 1
-tags: [glossary, definitions, terms, reference]
-keywords: [namada glossary, blockchain terms, crypto definitions, terminology]
 ---
 
 # Glossary
 
-A comprehensive list of terms you'll encounter in the Namada ecosystem.
+Reference guide for Namada terminology and concepts.
+
+---
 
 ## A
 
-### Address
-A unique identifier for sending and receiving assets. Namada has two types: transparent (`tnam...`) and shielded (`znam...`).
+### Asset
 
-### Anonymity Set
-The group of possible sources for a transaction. Larger sets provide better privacy.
+Any token or cryptocurrency that can be held or transferred on the Namada network. Includes NAM and IBC-transferred tokens.
 
-### APY (Annual Percentage Yield)
-The yearly return rate for staking, expressed as a percentage.
+---
 
 ## B
 
 ### Block
-A group of transactions bundled together and added to the blockchain.
+
+A collection of transactions bundled together and added to the blockchain. Each block references the previous block, forming a chain.
 
 ### Block Explorer
-A website that allows you to view blockchain data including transactions, addresses, and blocks.
 
-### Bond
-See [Stake](#stake).
+A web application that allows users to view blockchain data including transactions, blocks, and addresses.
 
-### Bridge
-A protocol that connects two different blockchains, allowing asset transfers between them.
+### Byzantine Fault Tolerance (BFT)
+
+A property of distributed systems that can continue operating correctly even if some nodes fail or act maliciously.
+
+---
 
 ## C
 
 ### CometBFT
-The consensus engine used by Namada (formerly known as Tendermint).
 
-### Commission
-The percentage of staking rewards kept by a validator before distributing to delegators.
+The consensus engine used by Namada (previously known as Tendermint). Provides fast finality and Byzantine fault tolerance.
 
 ### Consensus
-The process by which nodes agree on the state of the blockchain.
 
-### Cosmos
-The ecosystem of interconnected blockchains that Namada is part of.
+The process by which network participants agree on the state of the blockchain.
+
+### Cubic Slashing
+
+Namada's slashing mechanism where penalties increase with the cube of misbehaving stake, discouraging validator collusion.
+
+---
 
 ## D
 
-### DAO (Decentralized Autonomous Organization)
-An organization governed by smart contracts and community voting.
+### Delegation
 
-### Delegator
-Someone who stakes their tokens with a validator. Also called a "staker."
+The act of assigning your staking power to a validator without transferring ownership of your tokens.
 
-### Deposit
-Funds required to submit a governance proposal, returned if the proposal passes.
+### DPoS (Delegated Proof of Stake)
+
+A consensus mechanism where token holders vote for validators who secure the network.
+
+---
 
 ## E
 
 ### Epoch
-A unit of time in Namada (~12 hours). Many operations occur on epoch boundaries.
 
-## F
+A defined period in Namada's consensus. Used for staking rewards distribution and governance timing.
 
-### Faucet
-A service that distributes small amounts of tokens for free, usually for testing.
-
-### Fungibility
-The property where each unit of a currency is interchangeable with any other unit.
+---
 
 ## G
 
 ### Gas
-A measure of computational effort required to execute a transaction.
 
-### Gas Price
-The cost per unit of gas, paid in NAM.
-
-### Genesis
-The first block of a blockchain, containing initial configuration and token distribution.
+A measure of computational effort required to execute operations. Users pay gas fees to compensate validators.
 
 ### Governance
-The system for making collective decisions about protocol changes and fund allocation.
 
-## H
+The system for making decisions about protocol changes through on-chain proposals and voting.
 
-### Hardware Wallet
-A physical device that stores private keys offline for enhanced security.
+---
 
 ## I
 
 ### IBC (Inter-Blockchain Communication)
-A protocol enabling communication and token transfers between Cosmos chains.
 
-### Inflation
-The creation of new tokens over time, used to pay staking and shielded rewards.
+A protocol enabling communication and asset transfers between different blockchains. Namada uses IBC to connect with the Cosmos ecosystem.
+
+### IBFT (Istanbul Byzantine Fault Tolerance)
+
+A variant of BFT consensus used in some blockchain implementations.
+
+---
 
 ## K
 
 ### Keplr
-A popular Cosmos wallet that can interact with Namada.
 
-## L
+A popular browser wallet that supports Cosmos-based chains. Can be used with Namada for some operations.
 
-### Layer 1 (L1)
-A base blockchain like Namada, Ethereum, or Bitcoin (as opposed to Layer 2 solutions built on top).
-
-### Ledger
-See [Blockchain](#b).
+---
 
 ## M
 
-### Mainnet
-The live, production blockchain (as opposed to testnet).
-
 ### MASP (Multi-Asset Shielded Pool)
-Namada's technology for multi-asset privacy. See [MASP Explained](/docs/concepts/masp-explained).
 
-### Mnemonic
-See [Seed Phrase](#seed-phrase).
+Namada's core privacy technology. A unified pool where different asset types share anonymity, providing stronger privacy than single-asset systems.
+
+### Mainnet
+
+The primary, production blockchain network where real transactions with real value occur.
+
+---
 
 ## N
 
 ### NAM
-The native token of Namada, used for staking, governance, and fees.
+
+The native token of Namada. Used for staking, governance, and paying transaction fees.
+
+### Namada
+
+A proof-of-stake blockchain focused on multichain, asset-agnostic privacy. Enables shielded transfers for any connected asset.
 
 ### Node
-A computer running the Namada software that participates in the network.
 
-### Nullifier
-A cryptographic value that proves a shielded note has been spent, without revealing which note.
+A computer running Namada software that participates in the network by validating transactions and maintaining the blockchain.
 
-## O
-
-### On-chain
-Actions that occur directly on the blockchain (as opposed to off-chain).
+---
 
 ## P
 
-### Payment Address
-A shielded address used to receive private transactions.
-
 ### PGF (Public Goods Funding)
-Namada's system for funding ecosystem projects through community governance.
 
-### Proof-of-Stake (PoS)
-A consensus mechanism where validators are selected based on staked tokens.
+Namada's mechanism for funding public goods and community projects through protocol-level allocation and governance.
+
+### Privacy Set
+
+The group of participants whose transactions are mixed together, providing anonymity. Larger privacy sets mean stronger privacy.
+
+### Proof of Stake (PoS)
+
+A consensus mechanism where validators stake tokens as collateral to participate in block production and earn rewards.
 
 ### Proposal
-A formal request for changes submitted to governance for voting.
 
-## Q
+A governance request submitted on-chain for community voting. Can propose protocol changes, parameter updates, or funding allocations.
 
-### Quorum
-The minimum participation required for a governance vote to be valid.
-
-## R
-
-### Relayer
-Software that transmits IBC packets between blockchains.
-
-### Rewards
-Tokens earned from staking or holding shielded assets.
-
-### RPC (Remote Procedure Call)
-An endpoint for interacting with a blockchain node.
+---
 
 ## S
 
-### SDK (Software Development Kit)
-Tools for building applications on Namada.
-
-### Seed Phrase
-A list of 12-24 words that can restore your wallet. Also called mnemonic or recovery phrase.
-
-### Shield
-To move assets from transparent to shielded state for privacy.
-
 ### Shielded
-Private state where transaction details are hidden using cryptography.
+
+Transactions or assets protected by Namada's privacy features. Shielded data hides amounts, senders, and recipients.
+
+### Shielding
+
+The process of moving assets from a transparent (public) state to a shielded (private) state within the MASP.
 
 ### Slashing
-Penalty for validator misbehavior, resulting in loss of staked tokens.
 
-### Stake
-To lock up tokens with a validator to help secure the network and earn rewards.
+Penalty mechanism that reduces a validator's stake for misbehavior like double-signing or extended downtime.
 
-### Steward
-An elected community member who manages portions of PGF funding.
+### Staking
+
+Locking tokens to support network security. Stakers earn rewards and can participate in governance.
+
+---
 
 ## T
 
 ### Testnet
-A test network for development and experimentation (not real money).
 
-### Threshold
-The percentage of yes votes required for a proposal to pass.
+A test network for development and experimentation without risking real assets.
 
 ### Transaction
-An action recorded on the blockchain, such as a transfer or vote.
+
+An operation recorded on the blockchain, such as a transfer, stake delegation, or governance vote.
 
 ### Transparent
-Public state where transaction details are visible on the blockchain.
+
+Standard, public transactions where amounts and addresses are visible on the blockchain.
+
+---
 
 ## U
 
 ### Unbonding
-The process of unstaking tokens, subject to a waiting period.
 
-### Unshield
-To move assets from shielded to transparent state.
+The process of withdrawing staked tokens. Subject to an unbonding period before tokens become available.
+
+### Unshielding
+
+The process of moving assets from the shielded pool back to a transparent state.
+
+---
 
 ## V
 
 ### Validator
-A node operator who participates in consensus and proposes blocks.
 
-### Viewing Key
-A key that allows viewing shielded transactions without spending ability.
+A node operator who participates in consensus by proposing and validating blocks. Validators stake NAM and earn rewards.
 
-### Vote
-An expression of support or opposition to a governance proposal.
+---
 
 ## W
 
 ### Wallet
-Software or hardware that manages your private keys and allows you to transact.
+
+Software or hardware that stores cryptographic keys and allows users to manage their blockchain assets.
+
+---
 
 ## Z
 
 ### Zero-Knowledge Proof
-A cryptographic method to prove a statement is true without revealing underlying data.
+
+A cryptographic method allowing one party to prove knowledge of information without revealing the information itself.
 
 ### zk-SNARK
-Zero-Knowledge Succinct Non-Interactive Argument of Knowledge. See [zk-SNARKs ELI5](/docs/concepts/zk-snarks-eli5).
 
-### znam
-Prefix for shielded (private) addresses in Namada.
+Zero-Knowledge Succinct Non-Interactive Argument of Knowledge. The specific proof system used in Namada for privacy.
 
 ---
 
-:::tip Missing a Term?
-Help us improve this glossary! [Submit an issue](https://github.com/namwiki/namwiki/issues) or edit this page.
-:::
+## Related Resources
+
+- [MASP Explained](/docs/concepts/masp-explained)
+- [zk-SNARKs ELI5](/docs/concepts/zk-snarks-eli5)
+- [Governance Basics](/docs/concepts/governance-basics)

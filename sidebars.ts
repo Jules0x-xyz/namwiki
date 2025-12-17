@@ -4,14 +4,11 @@ const sidebars: SidebarsConfig = {
   mainSidebar: [
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       link: {
-        type: 'generated-index',
-        title: 'Getting Started',
-        description: 'Begin your Namada journey here',
-        slug: '/getting-started',
+        type: 'doc',
+        id: 'getting-started/what-is-namada',
       },
-      collapsed: false,
       items: [
         'getting-started/what-is-namada',
         'getting-started/why-privacy-matters',
@@ -22,22 +19,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '📖 Guides',
-      link: {
-        type: 'generated-index',
-        title: 'Guides',
-        description: 'Step-by-step tutorials for using Namada',
-        slug: '/guides',
-      },
+      label: 'Guides',
       items: [
         {
           type: 'category',
-          label: '💼 Wallets',
-          link: {
-            type: 'generated-index',
-            title: 'Wallet Guides',
-            slug: '/guides/wallets',
-          },
+          label: 'Wallets',
           items: [
             'guides/wallets/install-namada-extension',
             'guides/wallets/setup-keplr',
@@ -47,12 +33,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '💸 Transactions',
-          link: {
-            type: 'generated-index',
-            title: 'Transaction Guides',
-            slug: '/guides/transactions',
-          },
+          label: 'Transactions',
           items: [
             'guides/transactions/buy-nam',
             'guides/transactions/send-to-wallet',
@@ -64,12 +45,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '🥩 Staking',
-          link: {
-            type: 'generated-index',
-            title: 'Staking Guides',
-            slug: '/guides/staking',
-          },
+          label: 'Staking',
           items: [
             'guides/staking/understanding-staking',
             'guides/staking/how-to-stake',
@@ -79,12 +55,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: '🗳️ Governance',
-          link: {
-            type: 'generated-index',
-            title: 'Governance Guides',
-            slug: '/guides/governance',
-          },
+          label: 'Governance',
           items: [
             'guides/governance/vote-on-proposals',
             'guides/governance/create-proposal',
@@ -95,13 +66,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '💡 Concepts',
-      link: {
-        type: 'generated-index',
-        title: 'Concepts',
-        description: 'Understand the technology behind Namada',
-        slug: '/concepts',
-      },
+      label: 'Concepts',
       items: [
         'concepts/masp-explained',
         'concepts/zk-snarks-eli5',
@@ -113,13 +78,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '📚 Resources',
-      link: {
-        type: 'generated-index',
-        title: 'Resources',
-        description: 'Helpful resources for Namada users',
-        slug: '/resources',
-      },
+      label: 'Resources',
       items: [
         'resources/glossary',
         'resources/faq',
@@ -131,16 +90,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '🤝 Contributing',
-      link: {
-        type: 'generated-index',
-        title: 'Contributing',
-        description: 'Help us grow NamWiki',
-        slug: '/contributing',
-      },
+      label: 'Contributing',
       items: [
         'contributing/how-to-contribute',
         'contributing/content-guidelines',
+        'contributing/blog-submissions',
         'contributing/bounties',
       ],
     },

@@ -1,151 +1,114 @@
 # NamWiki
 
-> Your community-driven Namada education hub
+Community-driven education hub for Namada blockchain.
 
-[![Deploy](https://github.com/namwiki/namwiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/namwiki/namwiki/actions/workflows/deploy.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+**Website**: [namwiki.xyz](https://namwiki.xyz)
 
-## 🌐 Live Site
+## About
 
-Visit **[namwiki.org](https://namwiki.org)** to learn about Namada!
+NamWiki provides educational resources for the Namada ecosystem:
 
-## 📚 About
+- Getting started guides
+- Step-by-step tutorials
+- Technical concept explanations
+- Community resources
+- Multi-language support
 
-NamWiki is an open-source educational resource for the Namada blockchain ecosystem. We provide:
-
-- 📖 Beginner-friendly guides
-- 🛠️ Step-by-step tutorials
-- 💡 Concept explanations
-- 🌍 Multi-language support (coming soon)
-- 🤝 Community contributions
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Local Development
+## Quick Start
 
 ```bash
-# Clone the repository
-git clone https://github.com/namwiki/namwiki.git
+git clone https://github.com/Jules0x-xyz/namwiki.git
 cd namwiki
-
-# Install dependencies
 npm install
-
-# Start development server
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
+Open http://localhost:3000 to view locally.
 
-### Build
-
-```bash
-npm run build
-```
-
-This creates a production build in the `build` folder.
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 namwiki/
 ├── docs/                    # Documentation content
-│   ├── getting-started/     # Introductory guides
-│   ├── guides/              # How-to guides
-│   │   ├── wallets/
-│   │   ├── transactions/
-│   │   ├── staking/
-│   │   └── governance/
-│   ├── concepts/            # Concept explanations
-│   ├── resources/           # Reference materials
-│   └── contributing/        # Contribution guides
+│   ├── getting-started/
+│   ├── guides/
+│   ├── concepts/
+│   ├── resources/
+│   └── contributing/
+├── blog/                    # Blog posts
+├── i18n/                    # Translations
 ├── src/
-│   ├── components/          # React components
-│   ├── css/                 # Global styles
-│   └── pages/               # Static pages
-├── static/                  # Static assets
-├── docusaurus.config.ts     # Docusaurus configuration
-└── sidebars.ts              # Sidebar configuration
+│   ├── pages/              # Static pages
+│   ├── components/         # React components
+│   └── css/                # Styles
+└── static/                 # Static assets
 ```
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions! Here's how you can help:
+We welcome contributions:
 
-### Quick Contributions
+1. Fork this repository
+2. Create your content or changes
+3. Submit a Pull Request
 
-1. **Fix typos** - Edit any page directly on GitHub
-2. **Improve content** - Clarify explanations, add examples
-3. **Report issues** - Open an issue for bugs or suggestions
+See [How to Contribute](https://namwiki.xyz/docs/contributing/how-to-contribute) for details.
 
-### Full Contribution Guide
+### Adding Content
 
-See [How to Contribute](https://namwiki.org/docs/contributing/how-to-contribute) for:
+Create a new `.md` file in the appropriate `docs/` subfolder:
 
-- Setting up locally
-- Writing guidelines
-- Pull request process
-- Content standards
-
-### Bounties
-
-Some contributions are eligible for NAM rewards! Check our [Bounties page](https://namwiki.org/docs/contributing/bounties).
-
-## 📝 Content Guidelines
-
-- Write clearly for all skill levels
-- Include practical examples
-- Keep information accurate and up-to-date
-- Follow our [Content Guidelines](https://namwiki.org/docs/contributing/content-guidelines)
-
-## 🛠️ Tech Stack
-
-- **Framework**: [Docusaurus 3](https://docusaurus.io/)
-- **Language**: TypeScript
-- **Styling**: CSS Modules
-- **Hosting**: GitHub Pages
-- **CI/CD**: GitHub Actions
-
-## 📊 Project Status
-
-| Metric | Status |
-|--------|--------|
-| Articles | 25+ |
-| Contributors | Growing |
-| Languages | English (more coming) |
-| Last Update | December 2024 |
-
-## 🗺️ Roadmap
-
-See our [public roadmap](https://namwiki.org/roadmap) for planned features:
-
-- [ ] Video tutorials
-- [ ] Spanish translation
-- [ ] Interactive guides
-- [ ] Mobile app documentation
-
-## 📜 License
-
-- **Content**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **Code**: [MIT](LICENSE)
-
-## 🙏 Acknowledgments
-
-- Namada community for support and feedback
-- All contributors who help improve NamWiki
-- [Docusaurus](https://docusaurus.io/) for the amazing framework
-
-## 📞 Contact
-
-- **Discord**: Join [Namada Discord](https://discord.gg/namada)
-- **Twitter**: Follow [@namada](https://twitter.com/namada)
-- **GitHub**: [Open an issue](https://github.com/namwiki/namwiki/issues)
-
+```markdown
+---
+title: Your Title
+description: Brief description
+sidebar_position: 1
 ---
 
-Built with ❤️ by the Namada community
+# Your Title
+
+Your content here...
+```
+
+### Adding Blog Posts
+
+Create a file in `blog/` with format `YYYY-MM-DD-title.md`:
+
+```markdown
+---
+slug: post-slug
+title: Post Title
+authors: [your-username]
+tags: [tag1, tag2]
+---
+
+Introduction.
+
+<!-- truncate -->
+
+Full content...
+```
+
+### Adding Translations
+
+1. Navigate to `i18n/[language-code]/`
+2. Add translated versions of documentation
+3. Submit a Pull Request
+
+## Tech Stack
+
+- Docusaurus 3
+- TypeScript
+- React
+- GitHub Pages
+
+## Contact
+
+- Email: hello@namwiki.xyz
+- Twitter: [@namwiki_xyz](https://twitter.com/namwiki_xyz)
+- GitHub: [Issues](https://github.com/Jules0x-xyz/namwiki/issues)
+
+## License
+
+Content: CC BY-SA 4.0  
+Code: MIT
