@@ -1,0 +1,411 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: #FFFFFF;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #d4d4d4;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.125rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Stats Bar */
+.statsBar {
+  background: #fafafa;
+  padding: 2rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+[data-theme='dark'] .statsBar {
+  background: #171717;
+  border-bottom-color: #262626;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.statIcon {
+  font-size: 1.5rem;
+}
+
+.statValue {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+[data-theme='dark'] .statValue {
+  color: #FFFF00;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: #525252;
+}
+
+[data-theme='dark'] .statLabel {
+  color: #a3a3a3;
+}
+
+/* Section Titles */
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Popular Guides */
+.popularGuides {
+  padding: 4rem 0;
+}
+
+.guidesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .guidesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .guidesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.guideCard {
+  display: flex;
+  padding: 1.5rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  background: #FFFFFF;
+}
+
+[data-theme='dark'] .guideCard {
+  background: #171717;
+  border-color: #262626;
+}
+
+.guideCard:hover {
+  border-color: #FFFF00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+}
+
+.guideIcon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.guideContent h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.guideContent p {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  color: #525252;
+}
+
+[data-theme='dark'] .guideContent p {
+  color: #a3a3a3;
+}
+
+.guideMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.badgeBeginner {
+  background: #dcfce7;
+  color: #166534;
+}
+
+[data-theme='dark'] .badgeBeginner {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+}
+
+.badgeIntermediate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+[data-theme='dark'] .badgeIntermediate {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
+}
+
+.badgeAdvanced {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+[data-theme='dark'] .badgeAdvanced {
+  background: rgba(239, 68, 68, 0.2);
+  color: #f87171;
+}
+
+.timeEstimate {
+  color: #737373;
+}
+
+/* Learning Paths */
+.learningPaths {
+  padding: 4rem 0;
+  background: #fafafa;
+}
+
+[data-theme='dark'] .learningPaths {
+  background: #0a0a0a;
+}
+
+.pathsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .pathsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pathCard {
+  background: #FFFFFF;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+[data-theme='dark'] .pathCard {
+  background: #171717;
+  border-color: #262626;
+}
+
+.pathCard h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.pathCard p {
+  margin: 0 0 1rem 0;
+  color: #525252;
+  font-size: 0.875rem;
+}
+
+[data-theme='dark'] .pathCard p {
+  color: #a3a3a3;
+}
+
+.pathSteps {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.pathSteps li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.pathSteps a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+[data-theme='dark'] .pathSteps a {
+  color: #FFFF00;
+}
+
+.pathSteps a:hover {
+  text-decoration: underline;
+}
+
+/* Community Section */
+.community {
+  padding: 4rem 0;
+}
+
+.communityGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .communityGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.communityCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  transition: all 0.2s ease;
+  background: #FFFFFF;
+}
+
+[data-theme='dark'] .communityCard {
+  background: #171717;
+  border-color: #262626;
+}
+
+.communityCard:hover {
+  border-color: #FFFF00;
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.communityIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.communityCard h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.communityCard p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #525252;
+}
+
+[data-theme='dark'] .communityCard p {
+  color: #a3a3a3;
+}
+
+/* Newsletter */
+.newsletter {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: #FFFFFF;
+}
+
+.newsletterContent {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletterContent h2 {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.newsletterContent p {
+  margin: 0 0 1.5rem 0;
+  color: #d4d4d4;
+  font-size: 1.125rem;
+}
+
+.newsletterButton {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background: #FFFF00;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.newsletterButton:hover {
+  background: #e6e600;
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: #000000;
+}

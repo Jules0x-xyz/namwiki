@@ -1,0 +1,17 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background: #fafafa;
+}
+
+[data-theme='dark'] .features {
+  background: #0a0a0a;
+}
+
+.featureIcon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
