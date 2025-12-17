@@ -11,8 +11,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://namwiki.org',
-  baseUrl: '/',
+  url: 'https://jules0x-xyz.github.io',
+  baseUrl: '/namwiki/',
 
   organizationName: 'namwiki',
   projectName: 'namwiki',
